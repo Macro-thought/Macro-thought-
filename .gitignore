@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 训练产物（体积大，不入库）
+KnowledgeGraphEmbedding/
+models/
+*.npy
+checkpoint*
+*.bak
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志中的临时文件
+*.tmp
