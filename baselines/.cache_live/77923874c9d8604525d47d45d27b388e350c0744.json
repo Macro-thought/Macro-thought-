@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "77923874c9d8604525d47d45d27b388e350c0744",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:34:07",
+ "usage": {
+  "prompt_tokens": 664,
+  "completion_tokens": 163,
+  "total_tokens": 827,
+  "prompt_tokens_details": {
+   "cached_tokens": 128
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 137
+  },
+  "prompt_cache_hit_tokens": 128,
+  "prompt_cache_miss_tokens": 536
+ },
+ "latency_ms": 1223,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "YS-11\n哈维兰苍鹭型\n空中客车A300\nAT-11堪萨斯人式教练机"
+}

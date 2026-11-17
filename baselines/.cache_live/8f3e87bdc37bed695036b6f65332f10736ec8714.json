@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "8f3e87bdc37bed695036b6f65332f10736ec8714",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:31:10",
+ "usage": {
+  "prompt_tokens": 632,
+  "completion_tokens": 265,
+  "total_tokens": 897,
+  "prompt_tokens_details": {
+   "cached_tokens": 384
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 142
+  },
+  "prompt_cache_hit_tokens": 384,
+  "prompt_cache_miss_tokens": 248
+ },
+ "latency_ms": 2025,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "[大阪国际机场, 仙台机场, 福冈机场, 海口美兰国际机场, 沈阳桃仙国际机场, 函馆机场, 鹿儿岛机场, 哈尔滨太平国际机场, 青岛流亭国际机场, 那霸机场, 新潟机场, 杭州萧山国际机场, 静冈机场, 名古屋飞行场, 福州长乐国际机场, 八尾机场, 昆明长水国际机场, 南昌昌北国际机场, 济南遥墙国际机场, 西安咸阳国际机场]"
+}

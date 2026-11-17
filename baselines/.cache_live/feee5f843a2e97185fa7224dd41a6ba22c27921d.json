@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "feee5f843a2e97185fa7224dd41a6ba22c27921d",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:31:06",
+ "usage": {
+  "prompt_tokens": 659,
+  "completion_tokens": 192,
+  "total_tokens": 851,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 146
+  },
+  "prompt_cache_hit_tokens": 512,
+  "prompt_cache_miss_tokens": 147
+ },
+ "latency_ms": 1908,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "仁川航空、商舟航空物流、翡翠航空、日本货物航空、江苏京东货运航空、香港航空货运、圆通航空、天津货运航空、香港货运航空、中国国际货运航空、日航货运"
+}

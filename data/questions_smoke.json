@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "version": "smoke-1",
+    "purpose": "T1.4 管道冒烟：验证 Solve(Q,G) 在五个分支上都能给出确定答案，并跑出 15 格应然矩阵。不是最终题集（T2.2 才出题）。",
+    "n": 19,
+    "note": "题面中文由模板生成（T2.1），此处 nl 仅供人读；求解器只吃 query 结构。",
+    "language_policy": "类名一律用中文标签，避免模板里出现 QID"
+  },
+  "questions": [
+    {
+      "qid": "Q001",
+      "shape": "count",
+      "template": "count_class",
+      "nl": "一共有多少家航空公司？",
+      "query": {
+        "op": "count_class",
+        "class": "Q46970"
+      }
+    },
+    {
+      "qid": "Q002",
+      "shape": "count",
+      "template": "count_class",
+      "nl": "图里一共有多少个机场？",
+      "query": {
+        "op": "count_class",
+        "class": "Q1248784"
+      }
+    },
+    {
+      "qid": "Q003",
+      "shape": "count",
+      "template": "count_class_country",
+      "nl": "总部/注册地在中国的航空公司有多少家？",
+      "query": {
+        "op": "count_class_country",
+        "class": "Q46970",
+        "country": "Q148"
+      }
+    },
+    {
+      "qid": "Q004",
+      "shape": "count",
+      "template": "count_with_rel",
+      "nl": "有多少家航空公司至少有一个航空枢纽？",
+      "query": {
+        "op": "count_with_rel",
+        "class": "Q46970",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q005",
+      "shape": "count",
+      "template": "count_rel",
+      "nl": "国泰航空有几个航空枢纽？",
+      "query": {
+        "op": "count_rel",
+        "head": "Q32141",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q006",
+      "shape": "count",
+      "template": "count_rel",
+      "nl": "中国南方航空有几个航空枢纽？",
+      "query": {
+        "op": "count_rel",
+        "head": "Q291090",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q007",
+      "shape": "count",
+      "template": "count_class_synth",
+      "nl": "有多少家非货运航空公司？",
+      "query": {
+        "op": "count_class",
+        "class": "Q_synth_q46970"
+      }
+    },
+    {
+      "qid": "Q008",
+      "shape": "set",
+      "template": "list_rel",
+      "nl": "中国南方航空的航空枢纽分别是哪些？",
+      "query": {
+        "op": "list_rel",
+        "head": "Q291090",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q009",
+      "shape": "set",
+      "template": "list_rel",
+      "nl": "国泰航空的航空枢纽是哪个机场？",
+      "query": {
+        "op": "list_rel",
+        "head": "Q32141",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q010",
+      "shape": "set",
+      "template": "list_class",
+      "nl": "哪些航空公司属于货运航空公司？",
+      "query": {
+        "op": "list_class",
+        "class": "Q1057026"
+      }
+    },
+    {
+      "qid": "Q011",
+      "shape": "set",
+      "template": "list_class",
+      "nl": "列出所有航空公司。",
+      "query": {
+        "op": "list_class",
+        "class": "Q46970"
+      }
+    },
+    {
+      "qid": "Q012",
+      "shape": "bool",
+      "template": "universal_rel",
+      "nl": "是不是所有货运航空公司都有航空枢纽？",
+      "query": {
+        "op": "universal_rel",
+        "class": "Q1057026",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q013",
+      "shape": "bool",
+      "template": "universal_rel",
+      "nl": "是不是所有航空公司都有航空枢纽？",
+      "query": {
+        "op": "universal_rel",
+        "class": "Q46970",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q014",
+      "shape": "bool",
+      "template": "universal_rel",
+      "nl": "是不是所有航空公司都有母公司？",
+      "query": {
+        "op": "universal_rel",
+        "class": "Q46970",
+        "rel": "P749"
+      }
+    },
+    {
+      "qid": "Q015",
+      "shape": "hop2",
+      "template": "hop2_distinct",
+      "nl": "航空公司的航空枢纽一共分布在几个国家/地区？",
+      "query": {
+        "op": "hop2_distinct",
+        "class": "Q46970",
+        "rel1": "P113",
+        "rel2": "P17"
+      }
+    },
+    {
+      "qid": "Q016",
+      "shape": "hop2",
+      "template": "hop2_distinct",
+      "nl": "货运航空公司的航空枢纽分布在几个国家/地区？",
+      "query": {
+        "op": "hop2_distinct",
+        "class": "Q1057026",
+        "rel1": "P113",
+        "rel2": "P17"
+      }
+    },
+    {
+      "qid": "Q017",
+      "shape": "count",
+      "template": "count_rel",
+      "nl": "日本航空有几个航空枢纽？",
+      "query": {
+        "op": "count_rel",
+        "head": "Q213140",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q018",
+      "shape": "set",
+      "template": "list_rel",
+      "nl": "日本航空的航空枢纽分别是哪些机场？",
+      "query": {
+        "op": "list_rel",
+        "head": "Q213140",
+        "rel": "P113"
+      }
+    },
+    {
+      "qid": "Q019",
+      "shape": "bool",
+      "template": "universal_rel",
+      "nl": "是不是所有货运航空公司都有母公司？",
+      "query": {
+        "op": "universal_rel",
+        "class": "Q1057026",
+        "rel": "P749"
+      }
+    }
+  ]
+}

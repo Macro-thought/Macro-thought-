@@ -1,0 +1,4 @@
+{"qid":"Q001","branch":"refine","should":"stable","v1_graph":"graph_v1.json","v2_graph":"graph_v2_refine.json"}
+{"qid":"Q002","branch":"refine","should":"stable","v1_graph":"graph_v1.json","v2_graph":"graph_v2_refine.json"}
+{"qid":"Q001","branch":"split","should":"stable","v1_graph":"graph_v1.json","v2_graph":"graph_v2_split.json"}
+{"qid":"Q002","branch":"split","should":"stable","v1_graph":"graph_v1.json","v2_graph":"graph_v2_split.json"}

@@ -1,0 +1,4 @@
+{"qid":"Q001","method":"m_split","version":"v1","answer":"1","meta":{"graph":"graph_v1.json"}}
+{"qid":"Q001","method":"m_split","version":"v2","answer":"1","meta":{"graph":"graph_v2_split.json"}}
+{"qid":"Q002","method":"m_split","version":"v1","answer":"2","meta":{"graph":"graph_v1.json"}}
+{"qid":"Q002","method":"m_split","version":"v2","answer":"3","meta":{"graph":"graph_v2_split.json"}}

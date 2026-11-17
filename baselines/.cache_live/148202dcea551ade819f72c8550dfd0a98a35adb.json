@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "148202dcea551ade819f72c8550dfd0a98a35adb",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:34:03",
+ "usage": {
+  "prompt_tokens": 647,
+  "completion_tokens": 160,
+  "total_tokens": 807,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 118
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 647
+ },
+ "latency_ms": 1253,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "波音737新世代、波音737经典版、C919、波音767、波音787、空中客车A330、空中客车A340、空中客车A350、多尼尔328"
+}

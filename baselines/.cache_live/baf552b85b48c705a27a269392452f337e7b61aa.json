@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "baf552b85b48c705a27a269392452f337e7b61aa",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:38:04",
+ "usage": {
+  "prompt_tokens": 692,
+  "completion_tokens": 346,
+  "total_tokens": 1038,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 210
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 692
+ },
+ "latency_ms": 2277,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- YS-11\n- 波音787\n- 波音777\n- 福克50\n- 福克F27\n- 波音767\n- 康维尔CV440\n- 空中客车A380\n- 波音737新世代\n- 空中客车A320系列\n- 哈维兰苍鹭型\n- 道格拉斯DC-3\n- 三菱支线喷射机\n- 德哈维兰鸽型客机\n- 亨德里·佩奇马拉松型客机\n- 洛克希德 L-1011 三星客机（英国皇家空军）"
+}

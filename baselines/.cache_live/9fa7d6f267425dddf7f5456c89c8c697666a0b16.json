@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "9fa7d6f267425dddf7f5456c89c8c697666a0b16",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:34:07",
+ "usage": {
+  "prompt_tokens": 646,
+  "completion_tokens": 136,
+  "total_tokens": 782,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129
+  },
+  "prompt_cache_hit_tokens": 512,
+  "prompt_cache_miss_tokens": 134
+ },
+ "latency_ms": 1255,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "国家开发银行、方威"
+}

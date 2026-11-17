@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "20dbffbec5a6a7fe5299603b483c88c1f68a8c31",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:34:05",
+ "usage": {
+  "prompt_tokens": 651,
+  "completion_tokens": 110,
+  "total_tokens": 761,
+  "prompt_tokens_details": {
+   "cached_tokens": 128
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 90
+  },
+  "prompt_cache_hit_tokens": 128,
+  "prompt_cache_miss_tokens": 523
+ },
+ "latency_ms": 1252,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "关西国际机场、成田国际机场、台湾桃园国际机场、中部国际机场"
+}

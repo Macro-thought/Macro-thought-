@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "c08eb0232ea23f4b4ece2b905c8a2d5df3599599",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T13:08:47",
+ "usage": {
+  "prompt_tokens": 593,
+  "completion_tokens": 341,
+  "total_tokens": 934,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 227
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 593
+ },
+ "latency_ms": 2148,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 香港航空\n- 朱鹭航空\n- 长城航空 (宁波)\n- 长安航空\n- 普莱米娅航空\n- 台湾航空\n- 中国货运航空\n- 华夏航空\n- 中国西北航空\n- 中国邮政航空\n- 中国西部航空\n- 中国新华航空\n- 中国联合航空\n- 河北航空\n- 重庆航空\n- 西藏航空\n- 大湾区航空\n- 瑞士亚洲航空\n- 汕头航空\n- 东邦航空"
+}

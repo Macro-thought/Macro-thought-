@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "08c6151e4d2f2ff8af552dfca0c1648da95a615c",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:31:12",
+ "usage": {
+  "prompt_tokens": 674,
+  "completion_tokens": 177,
+  "total_tokens": 851,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 134
+  },
+  "prompt_cache_hit_tokens": 512,
+  "prompt_cache_miss_tokens": 162
+ },
+ "latency_ms": 1876,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "1. 青岛流亭国际机场\n2. 台中清泉岗机场\n3. 西安西关机场\n4. 台北松山机场\n5. 拉萨贡嘎国际机场"
+}

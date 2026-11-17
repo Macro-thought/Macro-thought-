@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "c5095528eea94c499f6fa4ab090010313aeae64d",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:38:03",
+ "usage": {
+  "prompt_tokens": 647,
+  "completion_tokens": 121,
+  "total_tokens": 768,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 107
+  },
+  "prompt_cache_hit_tokens": 512,
+  "prompt_cache_miss_tokens": 135
+ },
+ "latency_ms": 1278,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 仁川國際機場\n- 金浦国际机场"
+}

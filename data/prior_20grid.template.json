@@ -1,0 +1,111 @@
+{
+ "meta": {
+  "purpose": "T1.5 的 15/20 格先验。由 A 填写并签名后，scripts/t15_matrix.py 才做对照。",
+  "how_to_fill": "expect 只能填 all_stable / some_flip / mixed / unknown 四者之一。reason 一句话，写清由哪个算子的什么性质推出。",
+  "confirmed_by": "",
+  "confirmed_at": "",
+  "discipline": "填之前不要看 reports/t15_matrix.md 的实测；若已看过，必须在 reason 里标注，否则对照无效（decisions.md D5）。"
+ },
+ "cells": {
+  "refine×count": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "refine×set": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "refine×bool": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "refine×hop2": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "restrict×count": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "restrict×set": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "restrict×bool": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "restrict×hop2": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "merge×count": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "merge×set": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "merge×bool": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "merge×hop2": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "split×count": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "split×set": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "split×bool": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "split×hop2": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "all×count": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "all×set": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "all×bool": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  },
+  "all×hop2": {
+   "expect": "",
+   "reason": "",
+   "measured_note": ""
+  }
+ }
+}

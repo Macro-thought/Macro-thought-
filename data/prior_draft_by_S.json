@@ -1,0 +1,89 @@
+{
+ "meta": {
+  "purpose": "S 按算子语义推的草稿，只用于预演脚本能否工作，**不是 T1.5 的先验**。",
+  "honesty_note": "本文件写于 S 已看过 19 题冒烟矩阵之后，存在后见污染，不能当作独立先验。正式先验必须由 A 在未看实测的情况下重写。",
+  "confirmed_by": ""
+ },
+ "cells": {
+  "refine×count": {
+   "expect": "all_stable",
+   "reason": "REFINE 保证父类闭包不变"
+  },
+  "refine×set": {
+   "expect": "all_stable",
+   "reason": "同上，枚举集合不变"
+  },
+  "refine×bool": {
+   "expect": "all_stable",
+   "reason": "全称判断只看闭包"
+  },
+  "refine×hop2": {
+   "expect": "all_stable",
+   "reason": "二跳仍走闭包"
+  },
+  "restrict×count": {
+   "expect": "some_flip",
+   "reason": "枢纽被收窄，计数减少"
+  },
+  "restrict×set": {
+   "expect": "mixed",
+   "reason": "部分实体枢纽清空 → 不可答"
+  },
+  "restrict×bool": {
+   "expect": "all_stable",
+   "reason": "全称题在两版都为假，真假不变"
+  },
+  "restrict×hop2": {
+   "expect": "mixed",
+   "reason": "枢纽国家数骤减，部分实体归零"
+  },
+  "merge×count": {
+   "expect": "some_flip",
+   "reason": "重复节点合并，计数下降"
+  },
+  "merge×set": {
+   "expect": "some_flip",
+   "reason": "枚举里少了英文名节点"
+  },
+  "merge×bool": {
+   "expect": "all_stable",
+   "reason": "合并不引入缺失关系"
+  },
+  "merge×hop2": {
+   "expect": "all_stable",
+   "reason": "枢纽集合去重后国家不变"
+  },
+  "split×count": {
+   "expect": "some_flip",
+   "reason": "补集类在 v1 不存在（0），v2 为 177"
+  },
+  "split×set": {
+   "expect": "all_stable",
+   "reason": "父类闭包不变"
+  },
+  "split×bool": {
+   "expect": "all_stable",
+   "reason": "闭包不变"
+  },
+  "split×hop2": {
+   "expect": "all_stable",
+   "reason": "闭包不变"
+  },
+  "all×count": {
+   "expect": "some_flip",
+   "reason": "合并 + 拆分叠加"
+  },
+  "all×set": {
+   "expect": "some_flip",
+   "reason": "合并去重 + 收窄"
+  },
+  "all×bool": {
+   "expect": "all_stable",
+   "reason": "全称题对两类结构变更不敏感"
+  },
+  "all×hop2": {
+   "expect": "mixed",
+   "reason": "收窄导致归零，合并不变国家"
+  }
+ }
+}

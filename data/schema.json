@@ -1,0 +1,2127 @@
+{
+  "meta": {
+    "version": "v1",
+    "source_graph": "data/graph_v1.json",
+    "source_hash": "d5935c6c56f97176",
+    "built_at": "2026-11-17T00:18:23",
+    "n_classes": 118,
+    "n_multi_typed": 177,
+    "decision_status": "三个算子目标已定，三处待 A 拍板（见 decisions.md D1-D4）"
+  },
+  "classes": [
+    {
+      "qid": "Q46970",
+      "label_zh": "航空公司",
+      "parents": [],
+      "children": [
+        "Q1057026",
+        "Q190915",
+        "Q2440569",
+        "Q721639"
+      ],
+      "n_direct": 174,
+      "n_subtree": 188,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q62447",
+      "label_zh": "飞行场",
+      "parents": [],
+      "children": [
+        "Q1248784",
+        "Q502074",
+        "Q5124659",
+        "Q695850",
+        "Q94993988"
+      ],
+      "n_direct": 2,
+      "n_subtree": 76,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1248784",
+      "label_zh": "机场",
+      "parents": [
+        "Q62447"
+      ],
+      "children": [
+        "Q28692646",
+        "Q644371",
+        "Q837800"
+      ],
+      "n_direct": 55,
+      "n_subtree": 74,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q15056993",
+      "label_zh": "飞机系列",
+      "parents": [],
+      "children": [],
+      "n_direct": 70,
+      "n_subtree": 70,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q94993988",
+      "label_zh": "商业航班机场",
+      "parents": [
+        "Q62447"
+      ],
+      "children": [],
+      "n_direct": 69,
+      "n_subtree": 69,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q644371",
+      "label_zh": "国际机场",
+      "parents": [
+        "Q1248784"
+      ],
+      "children": [],
+      "n_direct": 53,
+      "n_subtree": 53,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q43229",
+      "label_zh": "组织",
+      "parents": [],
+      "children": [
+        "Q163740",
+        "Q197952",
+        "Q4830453",
+        "Q494978",
+        "Q783794"
+      ],
+      "n_direct": 5,
+      "n_subtree": 51,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q515",
+      "label_zh": "城市",
+      "parents": [],
+      "children": [
+        "Q1066538",
+        "Q1187811",
+        "Q12102963",
+        "Q133442",
+        "Q1549591",
+        "Q15661340",
+        "Q200250",
+        "Q208511",
+        "Q2264924",
+        "Q250811",
+        "Q29045252",
+        "Q482821",
+        "Q51929311",
+        "Q748149"
+      ],
+      "n_direct": 11,
+      "n_subtree": 42,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1549591",
+      "label_zh": "大城市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [
+        "Q1137833",
+        "Q1749269"
+      ],
+      "n_direct": 36,
+      "n_subtree": 37,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q4830453",
+      "label_zh": "企业",
+      "parents": [
+        "Q43229"
+      ],
+      "children": [
+        "Q219577",
+        "Q6881511"
+      ],
+      "n_direct": 21,
+      "n_subtree": 37,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q783794",
+      "label_zh": "公司",
+      "parents": [
+        "Q43229"
+      ],
+      "children": [
+        "Q197952",
+        "Q219577",
+        "Q658255",
+        "Q6881511"
+      ],
+      "n_direct": 1,
+      "n_subtree": 32,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q6881511",
+      "label_zh": "工商企业",
+      "parents": [
+        "Q4830453",
+        "Q783794"
+      ],
+      "children": [
+        "Q891723"
+      ],
+      "n_direct": 2,
+      "n_subtree": 24,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q891723",
+      "label_zh": "上市公司",
+      "parents": [
+        "Q6881511"
+      ],
+      "children": [],
+      "n_direct": 23,
+      "n_subtree": 23,
+      "depth": 3,
+      "in_entities": true
+    },
+    {
+      "qid": "Q748149",
+      "label_zh": "地级市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [
+        "Q12102963"
+      ],
+      "n_direct": 22,
+      "n_subtree": 22,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q486972",
+      "label_zh": "人类聚居地",
+      "parents": [],
+      "children": [
+        "Q123705",
+        "Q129268952",
+        "Q27554677",
+        "Q424857",
+        "Q5327369",
+        "Q705296"
+      ],
+      "n_direct": 5,
+      "n_subtree": 19,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q12357832",
+      "label_zh": "二级行政区",
+      "parents": [],
+      "children": [
+        "Q17143371",
+        "Q29045252",
+        "Q494721",
+        "Q5327704"
+      ],
+      "n_direct": 1,
+      "n_subtree": 18,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q15253706",
+      "label_zh": "市",
+      "parents": [],
+      "children": [
+        "Q494721"
+      ],
+      "n_direct": 1,
+      "n_subtree": 14,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q494721",
+      "label_zh": "日本的市",
+      "parents": [
+        "Q12357832",
+        "Q15253706"
+      ],
+      "children": [
+        "Q1137833",
+        "Q1749269"
+      ],
+      "n_direct": 13,
+      "n_subtree": 13,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1057026",
+      "label_zh": "货运航空公司",
+      "parents": [
+        "Q46970"
+      ],
+      "children": [],
+      "n_direct": 11,
+      "n_subtree": 11,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q174844",
+      "label_zh": "巨型都市",
+      "parents": [],
+      "children": [],
+      "n_direct": 11,
+      "n_subtree": 11,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q250811",
+      "label_zh": "副省级行政区划",
+      "parents": [
+        "Q515"
+      ],
+      "children": [
+        "Q12102963"
+      ],
+      "n_direct": 11,
+      "n_subtree": 11,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q15056995",
+      "label_zh": "航空器型号",
+      "parents": [],
+      "children": [],
+      "n_direct": 9,
+      "n_subtree": 9,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q200250",
+      "label_zh": "大都市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [
+        "Q124313007"
+      ],
+      "n_direct": 8,
+      "n_subtree": 8,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q28692646",
+      "label_zh": "人工岛机场",
+      "parents": [
+        "Q1248784"
+      ],
+      "children": [],
+      "n_direct": 7,
+      "n_subtree": 7,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q19953632",
+      "label_zh": "前行政领土实体",
+      "parents": [],
+      "children": [
+        "Q27554677"
+      ],
+      "n_direct": 1,
+      "n_subtree": 6,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q2264924",
+      "label_zh": "港湾城市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 6,
+      "n_subtree": 6,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q45296117",
+      "label_zh": "航空器类型",
+      "parents": [],
+      "children": [],
+      "n_direct": 6,
+      "n_subtree": 6,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q137773",
+      "label_zh": "日本行政区",
+      "parents": [],
+      "children": [],
+      "n_direct": 5,
+      "n_subtree": 5,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q197952",
+      "label_zh": "公司集团",
+      "parents": [
+        "Q43229",
+        "Q783794"
+      ],
+      "children": [
+        "Q778575"
+      ],
+      "n_direct": 2,
+      "n_subtree": 5,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q208511",
+      "label_zh": "全球城市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [
+        "Q1066984"
+      ],
+      "n_direct": 5,
+      "n_subtree": 5,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q27554677",
+      "label_zh": "古都",
+      "parents": [
+        "Q19953632",
+        "Q486972"
+      ],
+      "children": [
+        "Q129268952"
+      ],
+      "n_direct": 3,
+      "n_subtree": 5,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q499073",
+      "label_zh": "直辖市",
+      "parents": [],
+      "children": [
+        "Q1208802"
+      ],
+      "n_direct": 1,
+      "n_subtree": 5,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q5124659",
+      "label_zh": "军民合用机场",
+      "parents": [
+        "Q62447"
+      ],
+      "children": [],
+      "n_direct": 5,
+      "n_subtree": 5,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q705296",
+      "label_zh": "区",
+      "parents": [
+        "Q486972"
+      ],
+      "children": [],
+      "n_direct": 5,
+      "n_subtree": 5,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q778575",
+      "label_zh": "综合企业",
+      "parents": [
+        "Q197952"
+      ],
+      "children": [],
+      "n_direct": 5,
+      "n_subtree": 5,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q108178728",
+      "label_zh": "首都",
+      "parents": [],
+      "children": [
+        "Q1025961",
+        "Q10876480"
+      ],
+      "n_direct": 3,
+      "n_subtree": 4,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1208802",
+      "label_zh": "直辖市",
+      "parents": [
+        "Q499073"
+      ],
+      "children": [],
+      "n_direct": 4,
+      "n_subtree": 4,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1749269",
+      "label_zh": "政令指定都市",
+      "parents": [
+        "Q1549591",
+        "Q494721"
+      ],
+      "children": [],
+      "n_direct": 4,
+      "n_subtree": 4,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q65589340",
+      "label_zh": "日本都道府县首府",
+      "parents": [],
+      "children": [],
+      "n_direct": 4,
+      "n_subtree": 4,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1066538",
+      "label_zh": "国家中心城市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q11422368",
+      "label_zh": "国际会议观光都市",
+      "parents": [],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q12102963",
+      "label_zh": "计划单列市",
+      "parents": [
+        "Q250811",
+        "Q515",
+        "Q748149"
+      ],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q124343324",
+      "label_zh": "中国国有企业",
+      "parents": [],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q133442",
+      "label_zh": "城邦",
+      "parents": [
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q161243",
+      "label_zh": "属地",
+      "parents": [],
+      "children": [
+        "Q15379753"
+      ],
+      "n_direct": 2,
+      "n_subtree": 3,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q219577",
+      "label_zh": "控股公司",
+      "parents": [
+        "Q4830453",
+        "Q783794"
+      ],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q2440569",
+      "label_zh": "区域航空公司",
+      "parents": [
+        "Q46970"
+      ],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q50337",
+      "label_zh": "都道府县",
+      "parents": [],
+      "children": [
+        "Q124313007"
+      ],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q51929311",
+      "label_zh": "最大城市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q837800",
+      "label_zh": "国内机场",
+      "parents": [
+        "Q1248784"
+      ],
+      "children": [],
+      "n_direct": 3,
+      "n_subtree": 3,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1073535",
+      "label_zh": "国家级经济技术开发区",
+      "parents": [],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q11233245",
+      "label_zh": "道厅所在地 (韩国)",
+      "parents": [],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q11303",
+      "label_zh": "摩天大楼",
+      "parents": [],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1200957",
+      "label_zh": "观光胜地",
+      "parents": [],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q123705",
+      "label_zh": "近邻社区",
+      "parents": [
+        "Q486972"
+      ],
+      "children": [
+        "Q490329"
+      ],
+      "n_direct": 1,
+      "n_subtree": 2,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q125470455",
+      "label_zh": "中国关税区域",
+      "parents": [],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q129268952",
+      "label_zh": "前首都",
+      "parents": [
+        "Q27554677",
+        "Q486972"
+      ],
+      "children": [
+        "Q1025961"
+      ],
+      "n_direct": 1,
+      "n_subtree": 2,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q137640468",
+      "label_zh": "省会",
+      "parents": [],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q210932",
+      "label_zh": "民航飞机",
+      "parents": [],
+      "children": [
+        "Q473625"
+      ],
+      "n_direct": 0,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q23442",
+      "label_zh": "岛屿",
+      "parents": [],
+      "children": [
+        "Q17308006"
+      ],
+      "n_direct": 1,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q29045252",
+      "label_zh": "韩国的市",
+      "parents": [
+        "Q12357832",
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q41176",
+      "label_zh": "建筑物",
+      "parents": [],
+      "children": [
+        "Q1021645"
+      ],
+      "n_direct": 1,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q473625",
+      "label_zh": "支线飞机",
+      "parents": [
+        "Q210932"
+      ],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q48748864",
+      "label_zh": "法人",
+      "parents": [],
+      "children": [
+        "Q1480166"
+      ],
+      "n_direct": 1,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q5327369",
+      "label_zh": "町名",
+      "parents": [
+        "Q486972"
+      ],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q5327704",
+      "label_zh": "日本特别区",
+      "parents": [
+        "Q12357832"
+      ],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q658255",
+      "label_zh": "子公司",
+      "parents": [
+        "Q783794"
+      ],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q695850",
+      "label_zh": "军用机场",
+      "parents": [
+        "Q62447"
+      ],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q779415",
+      "label_zh": "特别行政区",
+      "parents": [],
+      "children": [],
+      "n_direct": 2,
+      "n_subtree": 2,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1021645",
+      "label_zh": "办公大楼",
+      "parents": [
+        "Q41176"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1025961",
+      "label_zh": "日本首都",
+      "parents": [
+        "Q108178728",
+        "Q129268952"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 3,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1065118",
+      "label_zh": "区",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1066984",
+      "label_zh": "国际金融中心",
+      "parents": [
+        "Q208511"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q10876480",
+      "label_zh": "中华民国首都",
+      "parents": [
+        "Q108178728"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q10925968",
+      "label_zh": "国务院部委管理的国家局",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q110376455",
+      "label_zh": "澳大利亚政府机构",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q11079001",
+      "label_zh": "政策性银行",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1137833",
+      "label_zh": "中核市",
+      "parents": [
+        "Q1549591",
+        "Q494721"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1187811",
+      "label_zh": "大学城",
+      "parents": [
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q12100493",
+      "label_zh": "政府基金",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q124313007",
+      "label_zh": "都",
+      "parents": [
+        "Q200250",
+        "Q50337"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q12624746",
+      "label_zh": "行政市",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1351282",
+      "label_zh": "直辖殖民地",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1378975",
+      "label_zh": "展览馆",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1480166",
+      "label_zh": "株式会社",
+      "parents": [
+        "Q48748864"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1497364",
+      "label_zh": "建筑群",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q15379753",
+      "label_zh": "英国属土",
+      "parents": [
+        "Q161243"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q15634846",
+      "label_zh": "首尔的区",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q15661340",
+      "label_zh": "古城",
+      "parents": [
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q163740",
+      "label_zh": "非营利组织",
+      "parents": [
+        "Q43229"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q17143371",
+      "label_zh": "韩国的郡",
+      "parents": [
+        "Q12357832"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q171441",
+      "label_zh": "內飞地",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q17308006",
+      "label_zh": "日本岛屿",
+      "parents": [
+        "Q23442"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1807108",
+      "label_zh": "船公司",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q18325841",
+      "label_zh": "公共交通网络",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q1852859",
+      "label_zh": "荷兰的人口密集地区",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q190915",
+      "label_zh": "廉价航空公司",
+      "parents": [
+        "Q46970"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q206592",
+      "label_zh": "喷气式飞机",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q2225003",
+      "label_zh": "直辖市",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q2735392",
+      "label_zh": "通用直升机",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q2920759",
+      "label_zh": "巴士总站",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q31855",
+      "label_zh": "研究中心",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q3337001",
+      "label_zh": "体育国籍",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q3624078",
+      "label_zh": "主权国家",
+      "parents": [
+        "Q6256"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q431289",
+      "label_zh": "品牌",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q482821",
+      "label_zh": "广域市",
+      "parents": [
+        "Q515"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q490329",
+      "label_zh": "行政洞",
+      "parents": [
+        "Q123705"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 2,
+      "in_entities": true
+    },
+    {
+      "qid": "Q494978",
+      "label_zh": "经济特区",
+      "parents": [
+        "Q43229"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q5",
+      "label_zh": "人类",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q502074",
+      "label_zh": "直升机场",
+      "parents": [
+        "Q62447"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q55558200",
+      "label_zh": "新南威尔斯州地方政府区域",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q6256",
+      "label_zh": "地理、地域意义上的国家、地区",
+      "parents": [],
+      "children": [
+        "Q3624078"
+      ],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q721639",
+      "label_zh": "载旗航空公司",
+      "parents": [
+        "Q46970"
+      ],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 1,
+      "in_entities": true
+    },
+    {
+      "qid": "Q730038",
+      "label_zh": "信贷机构",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q7574799",
+      "label_zh": "韩国特别市",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q8018268",
+      "label_zh": "大手私铁",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q98675100",
+      "label_zh": "副部级单位",
+      "parents": [],
+      "children": [],
+      "n_direct": 1,
+      "n_subtree": 1,
+      "depth": 0,
+      "in_entities": true
+    },
+    {
+      "qid": "Q424857",
+      "label_zh": "大字",
+      "parents": [
+        "Q486972"
+      ],
+      "children": [],
+      "n_direct": 0,
+      "n_subtree": 0,
+      "depth": 1,
+      "in_entities": true
+    }
+  ],
+  "ops_plan": {
+    "refine_type": {
+      "op": "REFINE_TYPE",
+      "mode": "most_specific_typing",
+      "target": "Q1248784",
+      "target_label": "机场",
+      "n_instances": 74,
+      "n_migrated": 38,
+      "n_edges_removed": 38,
+      "migrated_sample": [
+        {
+          "id": "Q1046748",
+          "label": "大阪国际机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        },
+        {
+          "id": "Q1137465",
+          "label": "福冈机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        },
+        {
+          "id": "Q1143116",
+          "label": "海口美兰国际机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        },
+        {
+          "id": "Q1144167",
+          "label": "沈阳桃仙国际机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        },
+        {
+          "id": "Q1156786",
+          "label": "哈尔滨太平国际机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        },
+        {
+          "id": "Q1156790",
+          "label": "青岛流亭国际机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        },
+        {
+          "id": "Q1197691",
+          "label": "杭州萧山国际机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        },
+        {
+          "id": "Q1350630",
+          "label": "福州长乐国际机场",
+          "kept_types": [
+            "Q644371"
+          ]
+        }
+      ],
+      "checks": {
+        "closure_preserved": true,
+        "n_before": 74,
+        "n_after": 74
+      },
+      "decided_by": "S（形式无争议）；A 只需确认「删冗余父类断言」算不算 REFINE 的合法实现"
+    },
+    "split_concept": {
+      "op": "SPLIT_CONCEPT",
+      "target": "Q46970",
+      "target_label": "航空公司",
+      "positive": {
+        "qid": "Q1057026",
+        "label": "货运航空公司",
+        "n": 11,
+        "is_real_class": true
+      },
+      "complement": {
+        "qid": "Q_synth_q46970",
+        "label": "非货运航空公司",
+        "n": 177,
+        "is_real_class": false,
+        "note": "补集类为分析构造，Wikidata 无此类；论文必须标注"
+      },
+      "checks": {
+        "exclusive": true,
+        "union_eq_parent_closure": true,
+        "n_universe": 188,
+        "n_pos": 11,
+        "n_neg": 177
+      },
+      "decided_by": "pending_A（补集命名与 synthetic 标注方式需 A 拍板，见 D3）"
+    },
+    "restrict_rel": {
+      "op": "RESTRICT_REL",
+      "relation": "P113",
+      "condition": "tail.country == Q148（中国）",
+      "semantics": "「P113」收窄为「位于中国的航空枢纽」",
+      "n_kept": 88,
+      "n_dropped": 89,
+      "note": "任务书的时间收窄需 P580/P582 qualifier，本图未取；见 T1.0-a 判定",
+      "decided_by": "pending_A（时间维度缺失是否可接受，见补充决策 D4）"
+    },
+    "merge_entity": {
+      "op": "MERGE_ENTITY",
+      "n_pairs": 12,
+      "pairs": [
+        {
+          "keep": "Q1035195",
+          "keep_label": "香港航空",
+          "drop": "Q1035195-dup",
+          "drop_label": "Hong Kong Airlines",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q1090978",
+          "keep_label": "西藏航空",
+          "drop": "Q1090978-dup",
+          "drop_label": "Tibet Airlines",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q1154361",
+          "keep_label": "琉球空中通勤",
+          "drop": "Q1154361-dup",
+          "drop_label": "Ryukyu Air Commuter",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q133562624",
+          "keep_label": "玉山航空",
+          "drop": "Q133562624-dup",
+          "drop_label": "Saviq Air",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q1388103",
+          "keep_label": "昆明航空",
+          "drop": "Q1388103-dup",
+          "drop_label": "Kunming Airlines",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q17066858",
+          "keep_label": "英安航空",
+          "drop": "Q17066858-dup",
+          "drop_label": "Ying'an Airlines",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q23769262",
+          "keep_label": "湖南航空",
+          "drop": "Q23769262-dup",
+          "drop_label": "Air Travel",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q302642",
+          "keep_label": "首都航空",
+          "drop": "Q302642-dup",
+          "drop_label": "Beijing Capital Airlines",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q432533",
+          "keep_label": "天草航空",
+          "drop": "Q432533-dup",
+          "drop_label": "Amakusa Airlines",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q51747",
+          "keep_label": "中国国际航空",
+          "drop": "Q51747-dup",
+          "drop_label": "Air China",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q65272521",
+          "keep_label": "K航空",
+          "drop": "Q65272521-dup",
+          "drop_label": "Aero K",
+          "construction": "synthetic_duplicate_by_label_en"
+        },
+        {
+          "keep": "Q7537501",
+          "keep_label": "空中快线直升机有限公司",
+          "drop": "Q7537501-dup",
+          "drop_label": "Sky Shuttle Helicopters",
+          "construction": "synthetic_duplicate_by_label_en"
+        }
+      ],
+      "base_note": "merge 分支的 v1 为 graph_v1_mb.json（v1 + 12 个合成重复节点），v2 为合并后",
+      "checks": {
+        "no_id_collision": true,
+        "n_pairs_ge_8": true
+      },
+      "decided_by": "pending_A（D2：实体级合成 vs 类级真实合并）"
+    }
+  },
+  "scans": {
+    "refine_candidates": [
+      {
+        "class": "Q1248784",
+        "label": "机场",
+        "n_direct": 55,
+        "n_redundant": 38,
+        "ratio": 0.691
+      },
+      {
+        "class": "Q515",
+        "label": "城市",
+        "n_direct": 11,
+        "n_redundant": 10,
+        "ratio": 0.909
+      },
+      {
+        "class": "Q4830453",
+        "label": "企业",
+        "n_direct": 21,
+        "n_redundant": 8,
+        "ratio": 0.381
+      },
+      {
+        "class": "Q494721",
+        "label": "日本的市",
+        "n_direct": 13,
+        "n_redundant": 5,
+        "ratio": 0.385
+      },
+      {
+        "class": "Q1549591",
+        "label": "大城市",
+        "n_direct": 36,
+        "n_redundant": 4,
+        "ratio": 0.111
+      },
+      {
+        "class": "Q250811",
+        "label": "副省级行政区划",
+        "n_direct": 11,
+        "n_redundant": 3,
+        "ratio": 0.273
+      },
+      {
+        "class": "Q748149",
+        "label": "地级市",
+        "n_direct": 22,
+        "n_redundant": 3,
+        "ratio": 0.136
+      },
+      {
+        "class": "Q46970",
+        "label": "航空公司",
+        "n_direct": 174,
+        "n_redundant": 2,
+        "ratio": 0.011
+      },
+      {
+        "class": "Q62447",
+        "label": "飞行场",
+        "n_direct": 2,
+        "n_redundant": 2,
+        "ratio": 1.0
+      },
+      {
+        "class": "Q197952",
+        "label": "公司集团",
+        "n_direct": 2,
+        "n_redundant": 2,
+        "ratio": 1.0
+      },
+      {
+        "class": "Q6256",
+        "label": "地理、地域意义上的国家、地区",
+        "n_direct": 1,
+        "n_redundant": 1,
+        "ratio": 1.0
+      },
+      {
+        "class": "Q200250",
+        "label": "大都市",
+        "n_direct": 8,
+        "n_redundant": 1,
+        "ratio": 0.125
+      },
+      {
+        "class": "Q208511",
+        "label": "全球城市",
+        "n_direct": 5,
+        "n_redundant": 1,
+        "ratio": 0.2
+      },
+      {
+        "class": "Q108178728",
+        "label": "首都",
+        "n_direct": 3,
+        "n_redundant": 1,
+        "ratio": 0.333
+      },
+      {
+        "class": "Q50337",
+        "label": "都道府县",
+        "n_direct": 3,
+        "n_redundant": 1,
+        "ratio": 0.333
+      },
+      {
+        "class": "Q12357832",
+        "label": "二级行政区",
+        "n_direct": 1,
+        "n_redundant": 1,
+        "ratio": 1.0
+      },
+      {
+        "class": "Q6881511",
+        "label": "工商企业",
+        "n_direct": 2,
+        "n_redundant": 1,
+        "ratio": 0.5
+      }
+    ],
+    "split_candidates": [
+      {
+        "class": "Q46970",
+        "label": "航空公司",
+        "n_direct": 174,
+        "children": [
+          {
+            "qid": "Q1057026",
+            "label": "货运航空公司",
+            "n": 11
+          },
+          {
+            "qid": "Q190915",
+            "label": "廉价航空公司",
+            "n": 1
+          },
+          {
+            "qid": "Q2440569",
+            "label": "区域航空公司",
+            "n": 3
+          },
+          {
+            "qid": "Q721639",
+            "label": "载旗航空公司",
+            "n": 1
+          }
+        ],
+        "n_covered_by_children": 2,
+        "n_residual": 172
+      },
+      {
+        "class": "Q1248784",
+        "label": "机场",
+        "n_direct": 55,
+        "children": [
+          {
+            "qid": "Q28692646",
+            "label": "人工岛机场",
+            "n": 7
+          },
+          {
+            "qid": "Q644371",
+            "label": "国际机场",
+            "n": 53
+          },
+          {
+            "qid": "Q837800",
+            "label": "国内机场",
+            "n": 3
+          }
+        ],
+        "n_covered_by_children": 38,
+        "n_residual": 17
+      },
+      {
+        "class": "Q1549591",
+        "label": "大城市",
+        "n_direct": 36,
+        "children": [
+          {
+            "qid": "Q1137833",
+            "label": "中核市",
+            "n": 1
+          },
+          {
+            "qid": "Q1749269",
+            "label": "政令指定都市",
+            "n": 4
+          }
+        ],
+        "n_covered_by_children": 4,
+        "n_residual": 32
+      },
+      {
+        "class": "Q4830453",
+        "label": "企业",
+        "n_direct": 21,
+        "children": [
+          {
+            "qid": "Q219577",
+            "label": "控股公司",
+            "n": 3
+          },
+          {
+            "qid": "Q6881511",
+            "label": "工商企业",
+            "n": 24
+          }
+        ],
+        "n_covered_by_children": 8,
+        "n_residual": 13
+      },
+      {
+        "class": "Q494721",
+        "label": "日本的市",
+        "n_direct": 13,
+        "children": [
+          {
+            "qid": "Q1137833",
+            "label": "中核市",
+            "n": 1
+          },
+          {
+            "qid": "Q1749269",
+            "label": "政令指定都市",
+            "n": 4
+          }
+        ],
+        "n_covered_by_children": 5,
+        "n_residual": 8
+      },
+      {
+        "class": "Q515",
+        "label": "城市",
+        "n_direct": 11,
+        "children": [
+          {
+            "qid": "Q1066538",
+            "label": "国家中心城市",
+            "n": 3
+          },
+          {
+            "qid": "Q1187811",
+            "label": "大学城",
+            "n": 1
+          },
+          {
+            "qid": "Q12102963",
+            "label": "计划单列市",
+            "n": 3
+          },
+          {
+            "qid": "Q133442",
+            "label": "城邦",
+            "n": 3
+          },
+          {
+            "qid": "Q1549591",
+            "label": "大城市",
+            "n": 37
+          },
+          {
+            "qid": "Q15661340",
+            "label": "古城",
+            "n": 1
+          },
+          {
+            "qid": "Q200250",
+            "label": "大都市",
+            "n": 8
+          },
+          {
+            "qid": "Q208511",
+            "label": "全球城市",
+            "n": 5
+          },
+          {
+            "qid": "Q2264924",
+            "label": "港湾城市",
+            "n": 6
+          },
+          {
+            "qid": "Q250811",
+            "label": "副省级行政区划",
+            "n": 11
+          },
+          {
+            "qid": "Q29045252",
+            "label": "韩国的市",
+            "n": 2
+          },
+          {
+            "qid": "Q482821",
+            "label": "广域市",
+            "n": 1
+          },
+          {
+            "qid": "Q51929311",
+            "label": "最大城市",
+            "n": 3
+          },
+          {
+            "qid": "Q748149",
+            "label": "地级市",
+            "n": 22
+          }
+        ],
+        "n_covered_by_children": 10,
+        "n_residual": 1
+      },
+      {
+        "class": "Q486972",
+        "label": "人类聚居地",
+        "n_direct": 5,
+        "children": [
+          {
+            "qid": "Q123705",
+            "label": "近邻社区",
+            "n": 2
+          },
+          {
+            "qid": "Q129268952",
+            "label": "前首都",
+            "n": 2
+          },
+          {
+            "qid": "Q27554677",
+            "label": "古都",
+            "n": 5
+          },
+          {
+            "qid": "Q5327369",
+            "label": "町名",
+            "n": 2
+          },
+          {
+            "qid": "Q705296",
+            "label": "区",
+            "n": 5
+          }
+        ],
+        "n_covered_by_children": 0,
+        "n_residual": 5
+      },
+      {
+        "class": "Q43229",
+        "label": "组织",
+        "n_direct": 5,
+        "children": [
+          {
+            "qid": "Q163740",
+            "label": "非营利组织",
+            "n": 1
+          },
+          {
+            "qid": "Q197952",
+            "label": "公司集团",
+            "n": 5
+          },
+          {
+            "qid": "Q4830453",
+            "label": "企业",
+            "n": 37
+          },
+          {
+            "qid": "Q494978",
+            "label": "经济特区",
+            "n": 1
+          },
+          {
+            "qid": "Q783794",
+            "label": "公司",
+            "n": 32
+          }
+        ],
+        "n_covered_by_children": 0,
+        "n_residual": 5
+      },
+      {
+        "class": "Q108178728",
+        "label": "首都",
+        "n_direct": 3,
+        "children": [
+          {
+            "qid": "Q1025961",
+            "label": "日本首都",
+            "n": 1
+          },
+          {
+            "qid": "Q10876480",
+            "label": "中华民国首都",
+            "n": 1
+          }
+        ],
+        "n_covered_by_children": 1,
+        "n_residual": 2
+      },
+      {
+        "class": "Q62447",
+        "label": "飞行场",
+        "n_direct": 2,
+        "children": [
+          {
+            "qid": "Q1248784",
+            "label": "机场",
+            "n": 74
+          },
+          {
+            "qid": "Q502074",
+            "label": "直升机场",
+            "n": 1
+          },
+          {
+            "qid": "Q5124659",
+            "label": "军民合用机场",
+            "n": 5
+          },
+          {
+            "qid": "Q695850",
+            "label": "军用机场",
+            "n": 2
+          },
+          {
+            "qid": "Q94993988",
+            "label": "商业航班机场",
+            "n": 69
+          }
+        ],
+        "n_covered_by_children": 2,
+        "n_residual": 0
+      },
+      {
+        "class": "Q12357832",
+        "label": "二级行政区",
+        "n_direct": 1,
+        "children": [
+          {
+            "qid": "Q17143371",
+            "label": "韩国的郡",
+            "n": 1
+          },
+          {
+            "qid": "Q29045252",
+            "label": "韩国的市",
+            "n": 2
+          },
+          {
+            "qid": "Q494721",
+            "label": "日本的市",
+            "n": 13
+          },
+          {
+            "qid": "Q5327704",
+            "label": "日本特别区",
+            "n": 2
+          }
+        ],
+        "n_covered_by_children": 1,
+        "n_residual": 0
+      },
+      {
+        "class": "Q783794",
+        "label": "公司",
+        "n_direct": 1,
+        "children": [
+          {
+            "qid": "Q197952",
+            "label": "公司集团",
+            "n": 5
+          },
+          {
+            "qid": "Q219577",
+            "label": "控股公司",
+            "n": 3
+          },
+          {
+            "qid": "Q658255",
+            "label": "子公司",
+            "n": 2
+          },
+          {
+            "qid": "Q6881511",
+            "label": "工商企业",
+            "n": 24
+          }
+        ],
+        "n_covered_by_children": 0,
+        "n_residual": 1
+      }
+    ]
+  }
+}

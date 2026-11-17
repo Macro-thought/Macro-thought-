@@ -1,0 +1,1240 @@
+{
+ "meta": {
+  "version": "v1",
+  "n": 100,
+  "seed": 20261117,
+  "source_graph": "data/graph_v1.json",
+  "graph_hash": "d5935c6c56f97176",
+  "quota": {
+   "count": 32,
+   "set": 24,
+   "bool": 16,
+   "hop2": 28
+  },
+  "branches": [
+   "refine",
+   "restrict",
+   "merge",
+   "split",
+   "all"
+  ],
+  "language_policy": "题面只用中文标签，不出现 QID；地区称谓按中国官方表述",
+  "known_gaps": [
+   "无航线网络",
+   "P176 从航司为 0 条",
+   "外围噪声节点不在类池内"
+  ],
+  "discipline": "本文件只生成题，不含 gold；gold 由 labels/solver.py 独立求解"
+ },
+ "questions": [
+  {
+   "qid": "Q001",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "图里一共有多少国际机场？",
+   "query": {
+    "op": "count_class",
+    "class": "Q644371"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q002",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "图里一共有多少航空公司？",
+   "query": {
+    "op": "count_class",
+    "class": "Q46970"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q003",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "统计一下商业航班机场的总数。",
+   "query": {
+    "op": "count_class",
+    "class": "Q94993988"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q004",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "一共有多少机场？",
+   "query": {
+    "op": "count_class",
+    "class": "Q1248784"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q005",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "一共有多少军民合用机场？",
+   "query": {
+    "op": "count_class",
+    "class": "Q5124659"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q006",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "一共有多少城市？",
+   "query": {
+    "op": "count_class",
+    "class": "Q515"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q007",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "一共有多少货运航空公司？",
+   "query": {
+    "op": "count_class",
+    "class": "Q1057026"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q008",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "统计一下飞机系列的总数。",
+   "query": {
+    "op": "count_class",
+    "class": "Q15056993"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q009",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "图里一共有多少人工岛机场？",
+   "query": {
+    "op": "count_class",
+    "class": "Q28692646"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q010",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "统计一下国内机场的总数。",
+   "query": {
+    "op": "count_class",
+    "class": "Q837800"
+   },
+   "note": "类闭包计数"
+  },
+  {
+   "qid": "Q011",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "中国香港境内有多少航空公司？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q46970",
+    "country": "Q8646"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q012",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "中国境内有多少航空公司？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q46970",
+    "country": "Q148"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q013",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "日本境内有多少国际机场？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q644371",
+    "country": "Q17"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q014",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "属于中国台湾地区的国内机场有多少？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q837800",
+    "country": "Q865"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q015",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "韩国境内有多少商业航班机场？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q94993988",
+    "country": "Q884"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q016",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "属于中国的商业航班机场有多少？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q94993988",
+    "country": "Q148"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q017",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "法国境内有多少航空公司？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q46970",
+    "country": "Q142"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q018",
+   "shape": "count",
+   "template": "count_class_country",
+   "nl": "韩国境内有多少航空公司？",
+   "query": {
+    "op": "count_class_country",
+    "class": "Q46970",
+    "country": "Q884"
+   },
+   "note": "类×国家交叉计数"
+  },
+  {
+   "qid": "Q019",
+   "shape": "count",
+   "template": "count_with_rel",
+   "nl": "有多少航空公司至少有一个航空枢纽？",
+   "query": {
+    "op": "count_with_rel",
+    "class": "Q46970",
+    "rel": "P113"
+   },
+   "note": "存在性计数"
+  },
+  {
+   "qid": "Q020",
+   "shape": "count",
+   "template": "count_with_rel",
+   "nl": "有多少航空公司至少有一个总部所在地？",
+   "query": {
+    "op": "count_with_rel",
+    "class": "Q46970",
+    "rel": "P159"
+   },
+   "note": "存在性计数"
+  },
+  {
+   "qid": "Q021",
+   "shape": "count",
+   "template": "count_with_rel",
+   "nl": "拥有所属集团的航空公司有多少家？",
+   "query": {
+    "op": "count_with_rel",
+    "class": "Q46970",
+    "rel": "P127"
+   },
+   "note": "存在性计数"
+  },
+  {
+   "qid": "Q022",
+   "shape": "count",
+   "template": "count_with_rel",
+   "nl": "拥有母公司的货运航空公司有多少家？",
+   "query": {
+    "op": "count_with_rel",
+    "class": "Q1057026",
+    "rel": "P749"
+   },
+   "note": "存在性计数"
+  },
+  {
+   "qid": "Q023",
+   "shape": "count",
+   "template": "count_with_rel",
+   "nl": "拥有母公司的航空公司有多少家？",
+   "query": {
+    "op": "count_with_rel",
+    "class": "Q46970",
+    "rel": "P749"
+   },
+   "note": "存在性计数"
+  },
+  {
+   "qid": "Q024",
+   "shape": "count",
+   "template": "count_with_rel",
+   "nl": "有多少货运航空公司至少有一个总部所在地？",
+   "query": {
+    "op": "count_with_rel",
+    "class": "Q1057026",
+    "rel": "P159"
+   },
+   "note": "存在性计数"
+  },
+  {
+   "qid": "Q025",
+   "shape": "count",
+   "template": "count_rel",
+   "nl": "复兴航空有几个航空枢纽？",
+   "query": {
+    "op": "count_rel",
+    "head": "Q383707",
+    "rel": "P113"
+   },
+   "note": "单实体关系计数"
+  },
+  {
+   "qid": "Q026",
+   "shape": "count",
+   "template": "count_rel",
+   "nl": "日本越洋航空有几个运营机型？",
+   "query": {
+    "op": "count_rel",
+    "head": "Q574659",
+    "rel": "P121"
+   },
+   "note": "单实体关系计数"
+  },
+  {
+   "qid": "Q027",
+   "shape": "count",
+   "template": "count_rel",
+   "nl": "大韩航空有几个运营机型？",
+   "query": {
+    "op": "count_rel",
+    "head": "Q213147",
+    "rel": "P121"
+   },
+   "note": "单实体关系计数"
+  },
+  {
+   "qid": "Q028",
+   "shape": "count",
+   "template": "count_rel",
+   "nl": "日本货物航空名下的航空枢纽有几个？",
+   "query": {
+    "op": "count_rel",
+    "head": "Q1364998",
+    "rel": "P113"
+   },
+   "note": "单实体关系计数"
+  },
+  {
+   "qid": "Q029",
+   "shape": "count",
+   "template": "count_rel",
+   "nl": "北海道国际航空名下的运营机型有几个？",
+   "query": {
+    "op": "count_rel",
+    "head": "Q948500",
+    "rel": "P121"
+   },
+   "note": "单实体关系计数"
+  },
+  {
+   "qid": "Q030",
+   "shape": "count",
+   "template": "count_rel",
+   "nl": "日本佳速航空名下的运营机型有几个？",
+   "query": {
+    "op": "count_rel",
+    "head": "Q1138263",
+    "rel": "P121"
+   },
+   "note": "单实体关系计数"
+  },
+  {
+   "qid": "Q031",
+   "shape": "count",
+   "template": "count_class",
+   "nl": "一共有多少非货运航空公司？",
+   "query": {
+    "op": "count_class",
+    "class": "Q_synth_q46970"
+   },
+   "note": "补集类计数（split 分支新增类，v1 为 0）"
+  },
+  {
+   "qid": "Q032",
+   "shape": "count",
+   "template": "count_with_rel",
+   "nl": "拥有航空枢纽的非货运航空公司有多少家？",
+   "query": {
+    "op": "count_with_rel",
+    "class": "Q_synth_q46970",
+    "rel": "P113"
+   },
+   "note": "补集类×关系计数（split 分支新增类，v1 为 0）"
+  },
+  {
+   "qid": "Q033",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "哪些实体属于飞机系列？",
+   "query": {
+    "op": "list_class",
+    "class": "Q15056993"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q034",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "哪些实体属于货运航空公司？",
+   "query": {
+    "op": "list_class",
+    "class": "Q1057026"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q035",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "哪些实体属于航空公司？",
+   "query": {
+    "op": "list_class",
+    "class": "Q46970"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q036",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "哪些实体属于机场？",
+   "query": {
+    "op": "list_class",
+    "class": "Q1248784"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q037",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "哪些实体属于国际机场？",
+   "query": {
+    "op": "list_class",
+    "class": "Q644371"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q038",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "列出所有商业航班机场。",
+   "query": {
+    "op": "list_class",
+    "class": "Q94993988"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q039",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "列出所有军民合用机场。",
+   "query": {
+    "op": "list_class",
+    "class": "Q5124659"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q040",
+   "shape": "set",
+   "template": "list_class",
+   "nl": "列出所有人工岛机场。",
+   "query": {
+    "op": "list_class",
+    "class": "Q28692646"
+   },
+   "note": "类闭包枚举"
+  },
+  {
+   "qid": "Q041",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出英亚航空的航空枢纽。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q4969503",
+    "rel": "P113"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q042",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "日本货物航空的航空枢纽分别是哪些？",
+   "query": {
+    "op": "list_rel",
+    "head": "Q1364998",
+    "rel": "P113"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q043",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "香港航空的运营机型分别是哪些？",
+   "query": {
+    "op": "list_rel",
+    "head": "Q1035195",
+    "rel": "P121"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q044",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "中央航空运输公司的总部所在地分别是哪些？",
+   "query": {
+    "op": "list_rel",
+    "head": "Q15925865",
+    "rel": "P159"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q045",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "真航空的航空枢纽分别是哪些？",
+   "query": {
+    "op": "list_rel",
+    "head": "Q484872",
+    "rel": "P113"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q046",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出全日空航空的运营机型。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q204284",
+    "rel": "P121"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q047",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "韩亚航空的所属集团分别是哪些？",
+   "query": {
+    "op": "list_rel",
+    "head": "Q211165",
+    "rel": "P127"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q048",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出德安航空的航空枢纽。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q710605",
+    "rel": "P113"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q049",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "海南航空的运营机型分别是哪些？",
+   "query": {
+    "op": "list_rel",
+    "head": "Q292428",
+    "rel": "P121"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q050",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "日本亚细亚航空的航空枢纽分别是哪些？",
+   "query": {
+    "op": "list_rel",
+    "head": "Q702200",
+    "rel": "P113"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q051",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出中国南方航空的航空枢纽。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q291090",
+    "rel": "P113"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q052",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出海南航空的所属集团。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q292428",
+    "rel": "P127"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q053",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出长荣航空的运营机型。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q715113",
+    "rel": "P121"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q054",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出日本佳速航空的运营机型。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q1138263",
+    "rel": "P121"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q055",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出中国国际货运航空的所属集团。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q664721",
+    "rel": "P127"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q056",
+   "shape": "set",
+   "template": "list_rel",
+   "nl": "列出中国国际货运航空的航空枢纽。",
+   "query": {
+    "op": "list_rel",
+    "head": "Q664721",
+    "rel": "P113"
+   },
+   "note": "单实体关系枚举"
+  },
+  {
+   "qid": "Q057",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有航空公司都具备航空枢纽吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q46970",
+    "rel": "P113"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q058",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "是不是所有货运航空公司都有所属集团？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q1057026",
+    "rel": "P127"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q059",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有航空公司都具备母公司吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q46970",
+    "rel": "P749"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q060",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有航空公司都具备总部所在地吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q46970",
+    "rel": "P159"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q061",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有货运航空公司都具备母公司吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q1057026",
+    "rel": "P749"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q062",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有航空公司都具备运营机型吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q46970",
+    "rel": "P121"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q063",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有货运航空公司都具备运营机型吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q1057026",
+    "rel": "P121"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q064",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有货运航空公司都具备总部所在地吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q1057026",
+    "rel": "P159"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q065",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "是不是所有航空公司都有所属集团？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q46970",
+    "rel": "P127"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q066",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有货运航空公司都具备航空枢纽吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q1057026",
+    "rel": "P113"
+   },
+   "note": "全称判断"
+  },
+  {
+   "qid": "Q067",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有机场都具备国家/地区吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q1248784",
+    "rel": "P17"
+   },
+   "note": "全称判断（国家维度）"
+  },
+  {
+   "qid": "Q068",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有国际机场都具备国家/地区吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q644371",
+    "rel": "P17"
+   },
+   "note": "全称判断（国家维度）"
+  },
+  {
+   "qid": "Q069",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "是不是所有商业航班机场都有国家/地区？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q94993988",
+    "rel": "P17"
+   },
+   "note": "全称判断（国家维度）"
+  },
+  {
+   "qid": "Q070",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "是不是所有人工岛机场都有国家/地区？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q28692646",
+    "rel": "P17"
+   },
+   "note": "全称判断（国家维度）"
+  },
+  {
+   "qid": "Q071",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "是不是所有军民合用机场都有国家/地区？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q5124659",
+    "rel": "P17"
+   },
+   "note": "全称判断（国家维度）"
+  },
+  {
+   "qid": "Q072",
+   "shape": "bool",
+   "template": "universal_rel",
+   "nl": "所有国内机场都具备国家/地区吗？",
+   "query": {
+    "op": "universal_rel",
+    "class": "Q837800",
+    "rel": "P17"
+   },
+   "note": "全称判断（国家维度）"
+  },
+  {
+   "qid": "Q073",
+   "shape": "hop2",
+   "template": "hop2_distinct",
+   "nl": "货运航空公司的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_distinct",
+    "class": "Q1057026",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳：航空枢纽 → 国家"
+  },
+  {
+   "qid": "Q074",
+   "shape": "hop2",
+   "template": "hop2_distinct",
+   "nl": "航空公司的总部所在地一共分布在几个国家或地区？",
+   "query": {
+    "op": "hop2_distinct",
+    "class": "Q46970",
+    "rel1": "P159",
+    "rel2": "P17"
+   },
+   "note": "二跳：总部所在地 → 国家"
+  },
+  {
+   "qid": "Q075",
+   "shape": "hop2",
+   "template": "hop2_distinct",
+   "nl": "航空公司的航空枢纽一共分布在几个国家或地区？",
+   "query": {
+    "op": "hop2_distinct",
+    "class": "Q46970",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳：航空枢纽 → 国家"
+  },
+  {
+   "qid": "Q076",
+   "shape": "hop2",
+   "template": "hop2_distinct",
+   "nl": "航空公司的母公司一共分布在几个国家或地区？",
+   "query": {
+    "op": "hop2_distinct",
+    "class": "Q46970",
+    "rel1": "P749",
+    "rel2": "P17"
+   },
+   "note": "二跳：母公司 → 国家"
+  },
+  {
+   "qid": "Q077",
+   "shape": "hop2",
+   "template": "hop2_distinct",
+   "nl": "货运航空公司的总部所在地一共分布在几个国家或地区？",
+   "query": {
+    "op": "hop2_distinct",
+    "class": "Q1057026",
+    "rel1": "P159",
+    "rel2": "P17"
+   },
+   "note": "二跳：总部所在地 → 国家"
+  },
+  {
+   "qid": "Q078",
+   "shape": "hop2",
+   "template": "hop2_distinct",
+   "nl": "货运航空公司的母公司涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_distinct",
+    "class": "Q1057026",
+    "rel1": "P749",
+    "rel2": "P17"
+   },
+   "note": "二跳：母公司 → 国家"
+  },
+  {
+   "qid": "Q079",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "复兴航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q383707",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q080",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "商舟航空物流的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q124161695",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q081",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "捷星日本航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q117433",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q082",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "瑞士亚洲航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q109406805",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q083",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "英亚航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q4969503",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q084",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "日本亚细亚航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q702200",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q085",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "中国南方航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q291090",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q086",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "立荣航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q701761",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q087",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "第一航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q11280963",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q088",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "中国东方航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q291796",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q089",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "富士梦幻航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q1318207",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q090",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "大韩航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q213147",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q091",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "四川航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q291944",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q092",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "亚洲法国航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q65089105",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q093",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "海南航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q292428",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q094",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "真航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q484872",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q095",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "全日空航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q204284",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q096",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "中国国际货运航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q664721",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q097",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "中国民航的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q39060596",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q098",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "中国国际航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q51747",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q099",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "韩亚航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q211165",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  },
+  {
+   "qid": "Q100",
+   "shape": "hop2",
+   "template": "hop2_head",
+   "nl": "深圳航空的航空枢纽涉及多少个国家或地区？",
+   "query": {
+    "op": "hop2_head",
+    "head": "Q974899",
+    "rel1": "P113",
+    "rel2": "P17"
+   },
+   "note": "二跳（实体起点）：枢纽 → 国家"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+# 图指纹台账（as-found，2026-11-17）
+
+来源：各图 meta.idempotent_hash。整改期间这 7 份图冻结，改动即让 qa_v1.jsonl 的 500 行标签失效。
+
+| 图 | 实体 | 边 | 退休边 | 指纹 | 文件 sha256(前16) |
+|---|---|---|---|---|---|
+| `graph_v1.json` | 590 | 1857 | 0 | `d5935c6c56f97176` | `6e9ea3d45fa99346` |
+| `graph_v1_mb.json` | 602 | 1930 | 0 | `68e3df22473ccb31` | `d3a0383844ef7aa1` |
+| `graph_v2_all.json` | 591 | 1734 | 374 | `430322e9f0a264c8` | `94e8db1aee71715b` |
+| `graph_v2_merge.json` | 590 | 1857 | 73 | `0ca659e95cc973dd` | `bb786eb8ab84b5c7` |
+| `graph_v2_refine.json` | 590 | 1819 | 38 | `4f3e0d28e2a70f72` | `de679e6e340d3fd6` |
+| `graph_v2_restrict.json` | 590 | 1768 | 89 | `87fb131119998713` | `7694ae52e0b75ce8` |
+| `graph_v2_split.json` | 591 | 1861 | 174 | `b6fd1e440ef43acc` | `fe56cdaad333e5e8` |
+
+## 冻结清单（改动即视为破坏因果链）
+
+- 7 份图（上表）
+- `data/qa_v1.jsonl`（500 行，gold/should 由 solver 算出）
+- `data/questions_v1.json`（100 题）
+- `data/schema.json`（118 类 + 4 算子计划）

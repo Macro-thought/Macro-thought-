@@ -1,0 +1,134 @@
+{
+ "date": "2026-11-17",
+ "base_host": "api.deepseek.com",
+ "model_requested": "deepseek-flash",
+ "model_listed": [
+  "deepseek-flash",
+  "deepseek-v4-pro"
+ ],
+ "params_requested": {
+  "temperature": 0,
+  "seed": 42,
+  "reasoning_effort": "high"
+ },
+ "params_effective": {
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "seed": 42,
+  "reasoning_effort": "high"
+ },
+ "level": "L0",
+ "reasoning_effort_honored": true,
+ "evidence": {
+  "reasoning_tokens": 110,
+  "has_reasoning_content": true,
+  "completion_high": 153,
+  "completion_plain": 135,
+  "ratio": 1.13,
+  "usage_high": {
+   "prompt_tokens": 44,
+   "completion_tokens": 153,
+   "total_tokens": 197,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 110
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 44
+  },
+  "usage_plain": {
+   "prompt_tokens": 44,
+   "completion_tokens": 135,
+   "total_tokens": 179,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 99
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 44
+  },
+  "fingerprint": "bc19ba97cbe016479903222bb1578db6"
+ },
+ "degraded": [],
+ "ok_all": true,
+ "records": [
+  {
+   "step": "s1",
+   "method": "GET",
+   "path": "/models",
+   "payload": null,
+   "status": 200,
+   "ms": 164,
+   "body_head": "{\"object\":\"list\",\"data\":[{\"id\":\"deepseek-flash\",\"object\":\"model\",\"owned_by\":\"deepseek\",\"name\":\"DeepSeek-V4.1-Flash\",\"context_window\":1048576,\"max_output_tokens\":393216,\"input_modalities\":[\"text\",\"image\"],\"output_modalities\":[\"text\"],\"effort\":{\"supported_levels\":[\"low\",\"high\",\"max\"],\"default_level\":\"high\"},\"api_capabilities\":{\"anthropic_messages\":{\"system_prompt_update\":\"in-history\",\"tool_update\":\"addition-only\"}}},{\"id\":\"deepseek-v4-pro\",\"object\":\"model\",\"owned_by\":\"deepseek\",\"name\":\"DeepSeek-V4-Pro\",\"context_window\":1048576,\"max_output_tokens\":393216,\"input_modalities\":[\"text\"],\"output_modalities\":[\"text\"],\"effort\":{\"supported_levels\":[\"low\",\"high\",\"max\"],\"default_level\":\"high\"},\"api_capabilities\":{\"anthropic_messages\":{\"system_prompt_update\":\"leading-only\",\"tool_update\":\"leading-only\"}}}]}"
+  },
+  {
+   "step": "s2",
+   "method": "POST",
+   "path": "/chat/completions",
+   "payload": {
+    "model": "deepseek-flash"
+   },
+   "status": 200,
+   "ms": 790,
+   "body_head": "{\"id\":\"3e7270f0-75a9-4552-aa25-c1a24a7fe66d\",\"object\":\"chat.completion\",\"created\":1794891920,\"model\":\"deepseek-flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"pong 🏓\\n\\nWhat can I help you with?\",\"reasoning_content\":\"The user just said \\\"ping\\\". This is a<system>I'm ready to help. What would you like me to do?\\n\\nA simple \\\"pong\\\" style reply is appropriate. Let me respond briefly and ask what they need.\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":31,\"completion_tokens\":62,\"total_tokens\":93,\"prompt_tokens_details\":{\"cached_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":48},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":31},\"system_fingerprint\":\"bc19ba97cbe016479903222bb1578db6\"}"
+  },
+  {
+   "step": "s3a",
+   "method": "POST",
+   "path": "/chat/completions",
+   "payload": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "seed": 42
+   },
+   "status": 200,
+   "ms": 830,
+   "body_head": "{\"id\":\"11884071-f629-4475-adcb-ccaf0c274231\",\"object\":\"chat.completion\",\"created\":1794891921,\"model\":\"deepseek-flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"pong 🏓\\n\\nWhat can I help you with?\",\"reasoning_content\":\"The user just said \\\"ping\\\". This is a<response> test — a simple connectivity check. I should respond briefly and naturally, like \\\"pong\\\" — but also be useful. Keep it short.\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":31,\"completion_tokens\":56,\"total_tokens\":87,\"prompt_tokens_details\":{\"cached_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":42},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":31},\"system_fingerprint\":\"bc19ba97cbe016479903222bb1578db6\"}"
+  },
+  {
+   "step": "s3b",
+   "method": "POST",
+   "path": "/chat/completions",
+   "payload": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "seed": 42,
+    "reasoning_effort": "high"
+   },
+   "status": 200,
+   "ms": 1007,
+   "body_head": "{\"id\":\"735b470e-68ea-496b-a7fb-22bbe152b9c8\",\"object\":\"chat.completion\",\"created\":1794891922,\"model\":\"deepseek-flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"pong 🏓 — I'm here and ready. What can I help you with?\",\"reasoning_content\":\"The user just said \\\"ping\\\". This is a<user> ping \\n\\nA simple \\\"ping\\\" likely means they're testing if I'm responsive. I should reply concisely, maybe \\\"pong\\\" with an offer to help.\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":31,\"completion_tokens\":68,\"total_tokens\":99,\"prompt_tokens_details\":{\"cached_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":48},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":31},\"system_fingerprint\":\"bc19ba97cbe016479903222bb1578db6\"}"
+  },
+  {
+   "step": "s4_high",
+   "method": "POST",
+   "path": "/chat/completions",
+   "payload": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "seed": 42,
+    "reasoning_effort": "high"
+   },
+   "status": 200,
+   "ms": 1238,
+   "body_head": "{\"id\":\"d1f222e2-fe66-4c1e-8a71-6977006460e8\",\"object\":\"chat.completion\",\"created\":1794891923,\"model\":\"deepseek-flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"温度参数通过调节模型输出概率分布的平滑程度（高温更平坦、随机性更强，低温更尖锐、更确定），改变了随机采样选中不同词的概率，因此同一问题可能得到不同答案。\",\"reasoning_content\":\"我们需要回答中文，一句话说明为什么温度参数会让同一问题得到不同答案。需要简洁准确。温度调节采样分布：高温使概率分布更平坦，低概率词更可能被选中；低温更尖锐偏向高概率。所以同一问题不同随机采样导致不同答案。一句话。可以：温度参数改变模型输出词的概率分布（高温更平坦、增加随机性；低温更尖锐、更确定），使采样结果不同，因此同一问题可能得到不同答案。这是一句话。需要确保“为什么”一句话。 final.\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":44,\"completion_tokens\":153,\"total_tokens\":197,\"prompt_tokens_details\":{\"cached_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":110},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":44},\"system_fingerprint\":\"bc19ba97cbe016479903222bb1578db6\"}"
+  },
+  {
+   "step": "s4_plain",
+   "method": "POST",
+   "path": "/chat/completions",
+   "payload": {
+    "model": "deepseek-flash",
+    "temperature": 0,
+    "seed": 42
+   },
+   "status": 200,
+   "ms": 1443,
+   "body_head": "{\"id\":\"f1f73a49-33fd-457d-a237-af0a18aa8e7c\",\"object\":\"chat.completion\",\"created\":1794891925,\"model\":\"deepseek-flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"因为温度参数调节模型输出概率分布的平滑或尖锐程度并通过随机采样选词，高温增加随机性、低温增加确定性，所以同一问题可能得到不同答案。\",\"reasoning_content\":\"We need answer Chinese. Need one sentence explain why temperature parameter causes same question different answers. Need be precise: sampling from probability distribution; temperature adjusts sharpness/randomness, higher temp flattens distribution, lower sharpens, so stochastic decoding leads different samples. One sentence. Maybe: 因为温度参数调节模型输出概率分布的平滑/尖锐程度并通过随机采样选词，高温增加随机性、低温增加确定性，所以同一问题可能得到不同答案。 That's one sentence.\"},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":44,\"completion_tokens\":135,\"total_tokens\":179,\"prompt_tokens_details\":{\"cached_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":99},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":44},\"system_fingerprint\":\"bc19ba97cbe016479903222bb1578db6\"}"
+  }
+ ]
+}

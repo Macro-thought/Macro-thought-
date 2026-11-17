@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "23f8b85500fdc4ca8c22880091a6a18ab48bc999",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:37:58",
+ "usage": {
+  "prompt_tokens": 659,
+  "completion_tokens": 109,
+  "total_tokens": 768,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 94
+  },
+  "prompt_cache_hit_tokens": 512,
+  "prompt_cache_miss_tokens": 147
+ },
+ "latency_ms": 1354,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 希思罗机场\n- 台湾桃园国际机场"
+}

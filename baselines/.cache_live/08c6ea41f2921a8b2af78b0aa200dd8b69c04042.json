@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "08c6ea41f2921a8b2af78b0aa200dd8b69c04042",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:38:02",
+ "usage": {
+  "prompt_tokens": 643,
+  "completion_tokens": 130,
+  "total_tokens": 773,
+  "prompt_tokens_details": {
+   "cached_tokens": 509
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 123
+  },
+  "prompt_cache_hit_tokens": 509,
+  "prompt_cache_miss_tokens": 134
+ },
+ "latency_ms": 1172,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "[\"广州市\", \"上海市\"]"
+}

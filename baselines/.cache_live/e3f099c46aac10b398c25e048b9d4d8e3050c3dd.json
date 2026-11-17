@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "e3f099c46aac10b398c25e048b9d4d8e3050c3dd",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:31:08",
+ "usage": {
+  "prompt_tokens": 676,
+  "completion_tokens": 290,
+  "total_tokens": 966,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 149
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 676
+ },
+ "latency_ms": 1717,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 大阪国际机场\n- 仙台机场\n- 天草飞行场\n- 福冈机场\n- 北京大兴国际机场\n- 海口美兰国际机场\n- 沈阳桃仙国际机场\n- 函馆机场\n- 鹿儿岛机场\n- 哈尔滨太平国际机场\n- 青岛流亭国际机场\n- 那霸机场\n- 新潟机场\n- 杭州萧山国际机场\n- 静冈机场\n- 长崎机场\n- 福州长乐国际机场\n- 昆明长水国际机场\n- 南昌昌北国际机场\n- 济南遥墙国际机场"
+}

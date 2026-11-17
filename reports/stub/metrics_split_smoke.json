@@ -1,0 +1,612 @@
+{
+  "generated_at": "2026-11-17T00:43:38",
+  "inputs": {
+    "qa": "data/qa_smoke.jsonl",
+    "pred": [
+      "baselines/out/b1_text_v1.jsonl",
+      "baselines/out/b1_text_v2.jsonl",
+      "baselines/out/bfs2_v1.jsonl",
+      "baselines/out/bfs2_v2.jsonl"
+    ],
+    "branch": "all",
+    "n_questions": 95,
+    "duplicate_rows": 0
+  },
+  "min_n": 10,
+  "baseline": "b1_text",
+  "branch_resolution": [
+    {
+      "method": "b1_text",
+      "branches": {
+        "split": 38
+      },
+      "source": "v2 图的唯一候选",
+      "dropped": 0,
+      "conflicts": 0
+    },
+    {
+      "method": "bfs2",
+      "branches": {
+        "split": 38
+      },
+      "source": "v2 图的唯一候选",
+      "dropped": 0,
+      "conflicts": 0
+    }
+  ],
+  "groups": {
+    "b1_text": {
+      "refine": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "restrict": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 14
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 3
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 2,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "merge": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 15
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 4
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "split": {
+        "FR": {
+          "k": 0,
+          "n": 19,
+          "rate": 0.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 18,
+          "rate": 0.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 1,
+          "n": 1,
+          "rate": 1.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "all": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 10
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 7
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 2,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "总计": {
+        "FR": {
+          "k": 0,
+          "n": 19,
+          "rate": 0.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 76
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 18,
+          "rate": 0.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 58
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 1,
+          "n": 1,
+          "rate": 1.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 14
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 4,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      }
+    },
+    "bfs2": {
+      "refine": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "restrict": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 14
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 3
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 2,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "merge": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 15
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 4
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "split": {
+        "FR": {
+          "k": 6,
+          "n": 19,
+          "rate": 0.3157894736842105,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 5
+        },
+        "FFR": {
+          "k": 5,
+          "n": 18,
+          "rate": 0.2777777777777778,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 4
+        },
+        "MFR": {
+          "k": 0,
+          "n": 1,
+          "rate": 0.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "all": {
+        "FR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 19
+          },
+          "empty_only": 0
+        },
+        "FFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 10
+          },
+          "empty_only": 0
+        },
+        "MFR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 7
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 2,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      },
+      "总计": {
+        "FR": {
+          "k": 6,
+          "n": 19,
+          "rate": 0.3157894736842105,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 76
+          },
+          "empty_only": 5
+        },
+        "FFR": {
+          "k": 5,
+          "n": 18,
+          "rate": 0.2777777777777778,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 58
+          },
+          "empty_only": 4
+        },
+        "MFR": {
+          "k": 0,
+          "n": 1,
+          "rate": 0.0,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 0,
+            "missing_both": 14
+          },
+          "empty_only": 0
+        },
+        "UAR": {
+          "k": 0,
+          "n": 0,
+          "rate": null,
+          "missing": {
+            "missing_v1": 0,
+            "missing_v2": 4,
+            "missing_both": 0
+          },
+          "empty_only": 0
+        }
+      }
+    }
+  },
+  "noise": {
+    "baseline": "b1_text",
+    "fr": 0.0,
+    "n": 19,
+    "comparisons": {
+      "bfs2": {
+        "fr": 0.3157894736842105,
+        "n": 19,
+        "delta": 0.3157894736842105,
+        "ci95": [
+          0.08217553177222323,
+          0.5398959232467253
+        ],
+        "p_value": 0.007601641475220176
+      }
+    }
+  }
+}

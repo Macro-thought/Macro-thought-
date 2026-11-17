@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "0b5582d4f9297ae470959e393566407f352112a4",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:31:58",
+ "usage": {
+  "prompt_tokens": 675,
+  "completion_tokens": 362,
+  "total_tokens": 1037,
+  "prompt_tokens_details": {
+   "cached_tokens": 128
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 360
+  },
+  "prompt_cache_hit_tokens": 128,
+  "prompt_cache_miss_tokens": 547
+ },
+ "latency_ms": 3097,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "不知道"
+}

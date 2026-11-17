@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "77231eebe189e1c6b338f3a04fcab0c350d51d2e",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:34:07",
+ "usage": {
+  "prompt_tokens": 654,
+  "completion_tokens": 219,
+  "total_tokens": 873,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 169
+  },
+  "prompt_cache_hit_tokens": 256,
+  "prompt_cache_miss_tokens": 398
+ },
+ "latency_ms": 1723,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 波音787-9\n- 波音777-300ER\n- 波音787-10\n- 空中客车A330-300\n- 空中客车A330-200\n- 波音777F"
+}

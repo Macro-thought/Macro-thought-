@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "16ddd7ef4074f255d9f4d21f616bef41c86259f1",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:31:15",
+ "usage": {
+  "prompt_tokens": 636,
+  "completion_tokens": 111,
+  "total_tokens": 747,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 93
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 636
+ },
+ "latency_ms": 1495,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "[\"那霸机场\", \"关西国际机场\", \"成田国际机场\"]"
+}

@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "c43c044742e1030c14f24c343f04363c29c0d0c3",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:33:56",
+ "usage": {
+  "prompt_tokens": 674,
+  "completion_tokens": 302,
+  "total_tokens": 976,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 234
+  },
+  "prompt_cache_hit_tokens": 256,
+  "prompt_cache_miss_tokens": 418
+ },
+ "latency_ms": 2464,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 波音737新世代\n- 塞考斯基 S-76型直升机\n- 波音737经典版\n- 空中客车A320系列\n- 空中客车A330\n- 空中客车A350\n- 庞巴迪CRJ200\n- 庞巴迪CRJ700系列"
+}

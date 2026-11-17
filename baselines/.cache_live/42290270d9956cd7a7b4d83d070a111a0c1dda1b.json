@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "42290270d9956cd7a7b4d83d070a111a0c1dda1b",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:31:27",
+ "usage": {
+  "prompt_tokens": 678,
+  "completion_tokens": 99,
+  "total_tokens": 777,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 71
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 678
+ },
+ "latency_ms": 1165,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 北京大兴国际机场\n- 广州白云国际机场\n- 乌鲁木齐天山国际机场\n- 重庆江北国际机场"
+}

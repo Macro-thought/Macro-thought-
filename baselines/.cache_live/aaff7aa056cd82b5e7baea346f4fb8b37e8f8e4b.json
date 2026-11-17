@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "aaff7aa056cd82b5e7baea346f4fb8b37e8f8e4b",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:30:56",
+ "usage": {
+  "prompt_tokens": 663,
+  "completion_tokens": 283,
+  "total_tokens": 946,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 168
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 663
+ },
+ "latency_ms": 2019,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "YS-11、波音737新世代、康维尔CV440、塞考斯基 S-76型直升机、三菱支线喷射机、运-8、波音737-800、波音737MAX、庞巴迪冲8Q300、亨德里·佩奇马拉松型客机、运-12、哈维兰苍鹭型、波音747、伊尔-62、道格拉斯DC-3、安-2、肖特360、ATR 42、ATR 72、波音737经典版"
+}

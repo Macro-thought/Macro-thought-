@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "f9ed43d936b58682f5e28dadafee6cd9c7d40895",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:37:56",
+ "usage": {
+  "prompt_tokens": 624,
+  "completion_tokens": 158,
+  "total_tokens": 782,
+  "prompt_tokens_details": {
+   "cached_tokens": 384
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 115
+  },
+  "prompt_cache_hit_tokens": 384,
+  "prompt_cache_miss_tokens": 240
+ },
+ "latency_ms": 1472,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- 神户机场\n- 长崎机场\n- 北九州机场\n- 关西国际机场\n- 香港国际机场\n- 中部国际机场\n- 澳门国际机场"
+}

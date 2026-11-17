@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "28b15eecf55a72d8e9eef4534b24811984c02591",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:38:09",
+ "usage": {
+  "prompt_tokens": 655,
+  "completion_tokens": 199,
+  "total_tokens": 854,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 140
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 655
+ },
+ "latency_ms": 1539,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "- C919\n- 波音787\n- 波音767\n- 多尼尔328\n- 波音737新世代\n- 空中客车A330\n- 空中客车A350\n- 空中客车A340\n- 波音737经典版"
+}

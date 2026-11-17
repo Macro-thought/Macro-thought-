@@ -1,0 +1,73 @@
+{
+ "reps": 2,
+ "cells": [
+  {
+   "n": 100,
+   "flip": 18,
+   "content": 11,
+   "refusal": 7,
+   "stable_n": 68,
+   "stable_flip": 16,
+   "branch": "refine",
+   "version": "v1"
+  },
+  {
+   "n": 100,
+   "flip": 18,
+   "content": 11,
+   "refusal": 7,
+   "stable_n": 68,
+   "stable_flip": 16,
+   "branch": "restrict",
+   "version": "v1"
+  },
+  {
+   "n": 100,
+   "flip": 17,
+   "content": 11,
+   "refusal": 6,
+   "stable_n": 68,
+   "stable_flip": 13,
+   "branch": "merge",
+   "version": "v1"
+  },
+  {
+   "n": 100,
+   "flip": 18,
+   "content": 11,
+   "refusal": 7,
+   "stable_n": 68,
+   "stable_flip": 16,
+   "branch": "split",
+   "version": "v1"
+  },
+  {
+   "n": 100,
+   "flip": 17,
+   "content": 11,
+   "refusal": 6,
+   "stable_n": 68,
+   "stable_flip": 13,
+   "branch": "all",
+   "version": "v1"
+  },
+  {
+   "n": 100,
+   "flip": 14,
+   "content": 8,
+   "refusal": 6,
+   "stable_n": 68,
+   "stable_flip": 14,
+   "branch": "all",
+   "version": "v2"
+  }
+ ],
+ "v1_total": {
+  "n": 100,
+  "flip": 18,
+  "content": 11,
+  "refusal": 7,
+  "stable_n": 68,
+  "stable_flip": 16
+ }
+}

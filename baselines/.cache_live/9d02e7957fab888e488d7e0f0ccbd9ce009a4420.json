@@ -1,0 +1,30 @@
+{
+ "prompt_sha1": "9d02e7957fab888e488d7e0f0ccbd9ce009a4420",
+ "mode": "live",
+ "model": "deepseek-flash",
+ "temperature": 0,
+ "seed": 42,
+ "reasoning_effort": "high",
+ "base_host": "api.deepseek.com",
+ "ts": "2026-11-17T17:37:31",
+ "usage": {
+  "prompt_tokens": 625,
+  "completion_tokens": 259,
+  "total_tokens": 884,
+  "prompt_tokens_details": {
+   "cached_tokens": 384
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 109
+  },
+  "prompt_cache_hit_tokens": 384,
+  "prompt_cache_miss_tokens": 241
+ },
+ "latency_ms": 1846,
+ "attempts": 1,
+ "http_status": 200,
+ "has_reasoning_content": true,
+ "system_fingerprint": "bc19ba97cbe016479903222bb1578db6",
+ "model_effective": "deepseek-flash",
+ "response": "1. Embraer-170系列\n2. PBY\n3. 庞巴迪CRJ700系列\n4. 安-2\n5. ATR 72\n6. 波音737MAX\n7. 伊尔-62\n8. 伊尔-14\n9. 安-30\n10. 雅克-42\n11. 波音777\n12. 运-12\n13. 曳曳Saab\n14. ATR 42\n15. 运-11\n16. 波音767\n17. 福克F27\n18. YS-11\n19. 波音707\n20. 安-12"
+}
