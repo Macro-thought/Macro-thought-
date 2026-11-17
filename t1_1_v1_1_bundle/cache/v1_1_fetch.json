@@ -1,0 +1,3409 @@
+{
+ "p176": {
+  "Q1069038": [
+   "Q7034277"
+  ],
+  "Q1141716": [
+   "Q549189"
+  ],
+  "Q1153846": [
+   "Q1939817",
+   "Q648280"
+  ],
+  "Q1575075": [
+   "Q965204"
+  ],
+  "Q160266": [
+   "Q221419"
+  ],
+  "Q170131": [
+   "Q131800506",
+   "Q7233"
+  ],
+  "Q2061234": [
+   "Q1508849"
+  ],
+  "Q207700": [
+   "Q994221"
+  ],
+  "Q2140324": [
+   "Q1656412"
+  ],
+  "Q277491": [
+   "Q219501"
+  ],
+  "Q3495319": [
+   "Q105557"
+  ],
+  "Q39893": [
+   "Q155573"
+  ],
+  "Q426074": [
+   "Q55525588"
+  ],
+  "Q505649": [
+   "Q4408460",
+   "Q734775"
+  ],
+  "Q547934": [
+   "Q1374128"
+  ],
+  "Q648864": [
+   "Q1032384",
+   "Q1127527",
+   "Q3873394",
+   "Q890180"
+  ],
+  "Q665071": [
+   "Q1426388"
+  ],
+  "Q751141": [
+   "Q155896"
+  ],
+  "Q814006": [
+   "Q634227"
+  ],
+  "Q891786": [
+   "Q333498"
+  ],
+  "Q917907": [
+   "Q654907"
+  ],
+  "Q937949": [
+   "Q165765"
+  ],
+  "Q962677": [
+   "Q891779"
+  ]
+ },
+ "p931": {
+  "Q1054857": [
+   "Q46747"
+  ],
+  "Q1137465": [
+   "Q26600"
+  ],
+  "Q1155685": [
+   "Q26418"
+  ],
+  "Q1156310": [
+   "Q15674"
+  ],
+  "Q1156790": [
+   "Q170322"
+  ],
+  "Q1197455": [
+   "Q181966"
+  ],
+  "Q1197536": [
+   "Q179691"
+  ],
+  "Q133796": [
+   "Q38234"
+  ],
+  "Q1350630": [
+   "Q68481"
+  ],
+  "Q1375451": [
+   "Q171943"
+  ],
+  "Q15114": [
+   "Q72"
+  ],
+  "Q16810": [
+   "Q181557"
+  ],
+  "Q17581": [
+   "Q3130"
+  ],
+  "Q3238350": [
+   "Q179608"
+  ],
+  "Q3273382": [
+   "Q34664"
+  ],
+  "Q374558": [
+   "Q245023"
+  ],
+  "Q46280": [
+   "Q90"
+  ],
+  "Q483254": [
+   "Q20927"
+  ],
+  "Q484730": [
+   "Q41278"
+  ],
+  "Q559107": [
+   "Q16666"
+  ],
+  "Q708576": [
+   "Q713381"
+  ],
+  "Q741372": [
+   "Q48320"
+  ],
+  "Q8691": [
+   "Q84"
+  ],
+  "Q9694": [
+   "Q727"
+  ],
+  "Q970339": [
+   "Q210667"
+  ]
+ },
+ "labels": {
+  "Q1032384": {
+   "en": "Canadian Vickers",
+   "zh": "加拿大維克斯"
+  },
+  "Q105557": {
+   "en": "Embraer",
+   "zh": "巴西航空工业公司",
+   "zh-cn": "巴西航空工业公司",
+   "zh-hans": "巴西航空工业公司",
+   "zh-tw": "巴西航空工業公司"
+  },
+  "Q1127527": {
+   "en": "Consolidated Aircraft",
+   "zh": "团结飞机公司",
+   "zh-cn": "团结飞机公司",
+   "zh-hans": "统一飞机"
+  },
+  "Q1374128": {
+   "en": "Xi'an Aircraft Industrial Corporation",
+   "zh": "西安飞机工业集团"
+  },
+  "Q1426388": {
+   "en": "Glenn L. Martin Company",
+   "zh": "格伦·L·马丁公司",
+   "zh-hans": "格伦·L·马丁公司"
+  },
+  "Q1508849": {
+   "en": "Shanghai Aircraft Manufacturing Company",
+   "zh": "上海飞机制造有限公司",
+   "zh-cn": "上海飞机制造有限公司"
+  },
+  "Q155573": {
+   "en": "Airbus Helicopters",
+   "zh-cn": "欧洲直升机公司",
+   "zh-hans": "欧洲直升机公司",
+   "zh-tw": "歐洲直升機公司",
+   "zh": "空中客车直升机公司"
+  },
+  "Q15674": {
+   "en": "Kagoshima",
+   "zh": "鹿兒島市",
+   "zh-tw": "鹿兒島市"
+  },
+  "Q1656412": {
+   "en": "Short Brothers",
+   "zh": "肖特兄弟公司"
+  },
+  "Q165765": {
+   "en": "Dornier",
+   "zh-hans": "多尼尔公司",
+   "zh-cn": "多尼尔飞机公司",
+   "zh": "多尼爾"
+  },
+  "Q16666": {
+   "en": "Nanjing",
+   "zh": "南京市",
+   "zh-cn": "南京市",
+   "zh-hans": "南京市",
+   "zh-tw": "南京市"
+  },
+  "Q170322": {
+   "en": "Qingdao",
+   "zh": "青岛市",
+   "zh-cn": "青岛市",
+   "zh-hans": "青岛市",
+   "zh-tw": "青島市"
+  },
+  "Q171943": {
+   "en": "Nanchang",
+   "zh": "南昌市",
+   "zh-cn": "南昌市",
+   "zh-hans": "南昌市",
+   "zh-tw": "南昌市"
+  },
+  "Q179608": {
+   "en": "Nanning",
+   "zh": "南宁市",
+   "zh-cn": "南宁市",
+   "zh-hans": "南宁市",
+   "zh-tw": "南寧市"
+  },
+  "Q179691": {
+   "en": "Niigata",
+   "zh": "新潟市",
+   "zh-cn": "新潟市",
+   "zh-hans": "新潟市",
+   "zh-tw": "新潟市"
+  },
+  "Q181557": {
+   "en": "Kaohsiung",
+   "zh": "高雄市",
+   "zh-hans": "高雄市",
+   "zh-tw": "高雄市"
+  },
+  "Q181966": {
+   "en": "Naha",
+   "zh": "那霸市",
+   "zh-cn": "那霸市",
+   "zh-hans": "那霸市",
+   "zh-tw": "那霸市"
+  },
+  "Q1939817": {
+   "en": "MSJ Asset Management Company",
+   "zh": "三菱飛機"
+  },
+  "Q20927": {
+   "en": "Daegu",
+   "zh": "大邱",
+   "zh-cn": "大邱",
+   "zh-hans": "大邱",
+   "zh-tw": "大邱廣域市"
+  },
+  "Q210667": {
+   "en": "Chōfu",
+   "zh": "調布市",
+   "zh-tw": "調布市",
+   "zh-cn": "调布市",
+   "zh-hans": "调布市"
+  },
+  "Q219501": {
+   "en": "Saab Group",
+   "zh-tw": "紳寶",
+   "zh": "萨博",
+   "zh-cn": "萨博",
+   "zh-hans": "萨博"
+  },
+  "Q245023": {
+   "en": "Taichung",
+   "zh": "台中市",
+   "zh-cn": "台中市",
+   "zh-hans": "台中市",
+   "zh-tw": "臺中市"
+  },
+  "Q26418": {
+   "en": "Hakodate",
+   "zh": "函館市",
+   "zh-hans": "函馆市"
+  },
+  "Q3130": {
+   "en": "Sydney",
+   "zh": "悉尼",
+   "zh-cn": "悉尼",
+   "zh-hans": "悉尼",
+   "zh-tw": "雪梨"
+  },
+  "Q333498": {
+   "en": "Bombardier",
+   "zh-cn": "庞巴迪公司",
+   "zh-hans": "庞巴迪公司",
+   "zh": "龐巴迪公司",
+   "zh-tw": "龐巴迪公司"
+  },
+  "Q34664": {
+   "en": "Hiroshima",
+   "zh": "广岛市",
+   "zh-cn": "广岛市",
+   "zh-hans": "广岛市",
+   "zh-tw": "廣島市"
+  },
+  "Q38234": {
+   "en": "Nagasaki",
+   "zh-tw": "長崎市",
+   "zh": "长崎市",
+   "zh-cn": "长崎市",
+   "zh-hans": "长崎市"
+  },
+  "Q3873394": {
+   "en": "Naval Aircraft Factory",
+   "zh": "美國海軍飛機工廠"
+  },
+  "Q41278": {
+   "en": "Ulsan",
+   "zh-cn": "蔚山广域市",
+   "zh-hans": "蔚山广域市",
+   "zh": "蔚山廣域市",
+   "zh-tw": "蔚山廣域市"
+  },
+  "Q4408460": {
+   "en": "Saratov Aviation Plant"
+  },
+  "Q46747": {
+   "en": "Sendai",
+   "zh": "仙台市",
+   "zh-cn": "仙台市",
+   "zh-hans": "仙台市",
+   "zh-tw": "仙台市"
+  },
+  "Q48320": {
+   "en": "Kobe",
+   "zh": "神戶市",
+   "zh-tw": "神戶市",
+   "zh-cn": "神户市"
+  },
+  "Q549189": {
+   "en": "Sikorsky Aircraft Corporation",
+   "zh": "西科斯基飞机公司"
+  },
+  "Q55525588": {
+   "en": "Airbus Canada"
+  },
+  "Q634227": {
+   "en": "Beechcraft",
+   "zh": "比奇飛機公司",
+   "zh-hans": "比奇飞机公司"
+  },
+  "Q648280": {
+   "en": "Mitsubishi Heavy Industries",
+   "zh": "三菱重工业",
+   "zh-cn": "三菱重工业",
+   "zh-hans": "三菱重工业",
+   "zh-tw": "三菱重工業"
+  },
+  "Q654907": {
+   "en": "Bristol Aeroplane Company",
+   "zh": "布里斯托飛機公司"
+  },
+  "Q68481": {
+   "en": "Fuzhou",
+   "zh": "福州市",
+   "zh-cn": "福州市",
+   "zh-hans": "福州市",
+   "zh-tw": "福州市"
+  },
+  "Q7034277": {
+   "en": "Nihon Aircraft Manufacturing Corporation",
+   "zh": "日本航空機製造公司"
+  },
+  "Q713381": {
+   "en": "Taitung City",
+   "zh-cn": "台东市",
+   "zh-hans": "台东市",
+   "zh": "臺東市",
+   "zh-tw": "臺東市"
+  },
+  "Q72": {
+   "en": "Zurich",
+   "zh": "苏黎世",
+   "zh-cn": "苏黎世",
+   "zh-hans": "苏黎世",
+   "zh-tw": "蘇黎世"
+  },
+  "Q727": {
+   "en": "Amsterdam",
+   "zh": "阿姆斯特丹",
+   "zh-cn": "阿姆斯特丹",
+   "zh-hans": "阿姆斯特丹",
+   "zh-tw": "阿姆斯特丹"
+  },
+  "Q734775": {
+   "en": "Smolensk Aviation Plant"
+  },
+  "Q84": {
+   "en": "London",
+   "zh-cn": "伦敦",
+   "zh-hans": "伦敦",
+   "zh": "倫敦",
+   "zh-tw": "倫敦"
+  },
+  "Q890180": {
+   "en": "Boeing Canada"
+  },
+  "Q891779": {
+   "en": "Bombardier Aerospace",
+   "zh": "龐巴迪宇航公司"
+  },
+  "Q90": {
+   "en": "Paris",
+   "zh": "巴黎",
+   "zh-cn": "巴黎",
+   "zh-hans": "巴黎",
+   "zh-tw": "巴黎"
+  },
+  "Q965204": {
+   "en": "Handley Page",
+   "zh": "亨德里·佩奇"
+  },
+  "Q994221": {
+   "en": "Hongdu",
+   "zh": "洪都航空",
+   "zh-hans": "洪都航空"
+  }
+ },
+ "types": {
+  "Q84": {
+   "Q1048835": {
+    "en": "political territorial entity",
+    "zh-tw": "政治區劃",
+    "zh": "政治领土实体",
+    "zh-hans": "政治领土实体"
+   },
+   "Q1066984": {
+    "en": "financial center",
+    "zh": "国际金融中心",
+    "zh-hans": "国际金融中心"
+   },
+   "Q108178728": {
+    "en": "national capital",
+    "zh": "首都"
+   },
+   "Q174844": {
+    "en": "megacity",
+    "zh": "巨型都市"
+   },
+   "Q200250": {
+    "en": "metropolis",
+    "zh": "大都市",
+    "zh-cn": "大都市",
+    "zh-hans": "大都市",
+    "zh-tw": "大都市"
+   },
+   "Q208511": {
+    "en": "global city",
+    "zh": "全球城市",
+    "zh-cn": "全球城市",
+    "zh-hans": "全球城市",
+    "zh-tw": "全球城市"
+   },
+   "Q515": {
+    "en": "city",
+    "zh": "城市",
+    "zh-cn": "城市",
+    "zh-hans": "城市",
+    "zh-tw": "城市"
+   },
+   "Q51929311": {
+    "en": "largest city",
+    "zh": "最大城市",
+    "zh-cn": "最大城市",
+    "zh-hans": "最大城市"
+   }
+  },
+  "Q3130": {
+   "Q1066984": {
+    "en": "financial center",
+    "zh": "国际金融中心",
+    "zh-hans": "国际金融中心"
+   },
+   "Q11271835": {
+    "en": "state capital",
+    "zh-cn": "州首府",
+    "zh-hans": "州首府"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q200250": {
+    "en": "metropolis",
+    "zh": "大都市",
+    "zh-cn": "大都市",
+    "zh-hans": "大都市",
+    "zh-tw": "大都市"
+   },
+   "Q208511": {
+    "en": "global city",
+    "zh": "全球城市",
+    "zh-cn": "全球城市",
+    "zh-hans": "全球城市",
+    "zh-tw": "全球城市"
+   },
+   "Q515": {
+    "en": "city",
+    "zh": "城市",
+    "zh-cn": "城市",
+    "zh-hans": "城市",
+    "zh-tw": "城市"
+   },
+   "Q51929311": {
+    "en": "largest city",
+    "zh": "最大城市",
+    "zh-cn": "最大城市",
+    "zh-hans": "最大城市"
+   }
+  },
+  "Q965204": {
+   "Q107009743": {
+    "en": "aircraft manufacturer",
+    "zh": "航空器制造商"
+   }
+  },
+  "Q4408460": {
+   "Q1081138": {
+    "en": "historic site",
+    "zh": "古蹟",
+    "zh-hans": "古迹"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q727": {
+   "Q108178728": {
+    "en": "national capital",
+    "zh": "首都"
+   },
+   "Q13539802": {
+    "en": "place with town rights and privileges",
+    "zh": "拥有城镇权利和特权的地方",
+    "zh-hans": "拥有城镇权利和特权的地方"
+   },
+   "Q1392581": {
+    "en": "cycling city"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q1852859": {
+    "en": "cadastral populated place in the Netherlands",
+    "zh-hans": "荷兰的人口密集地区"
+   },
+   "Q2264924": {
+    "en": "port city",
+    "zh": "港湾城市",
+    "zh-cn": "港湾城市"
+   },
+   "Q515": {
+    "en": "city",
+    "zh": "城市",
+    "zh-cn": "城市",
+    "zh-hans": "城市",
+    "zh-tw": "城市"
+   },
+   "Q51929311": {
+    "en": "largest city",
+    "zh": "最大城市",
+    "zh-cn": "最大城市",
+    "zh-hans": "最大城市"
+   }
+  },
+  "Q90": {
+   "Q108178728": {
+    "en": "national capital",
+    "zh": "首都"
+   },
+   "Q174844": {
+    "en": "megacity",
+    "zh": "巨型都市"
+   },
+   "Q200250": {
+    "en": "metropolis",
+    "zh": "大都市",
+    "zh-cn": "大都市",
+    "zh-hans": "大都市",
+    "zh-tw": "大都市"
+   },
+   "Q208511": {
+    "en": "global city",
+    "zh": "全球城市",
+    "zh-cn": "全球城市",
+    "zh-hans": "全球城市",
+    "zh-tw": "全球城市"
+   },
+   "Q22923920": {
+    "en": "territorial collectivity of France with special status",
+    "zh-hans": "具有特殊状态的法国领土集体",
+    "zh": "特殊地位集体"
+   },
+   "Q51929311": {
+    "en": "largest city",
+    "zh": "最大城市",
+    "zh-cn": "最大城市",
+    "zh-hans": "最大城市"
+   }
+  },
+  "Q26418": {
+   "Q1137833": {
+    "en": "core city of Japan",
+    "zh": "中核市",
+    "zh-hans": "中核市",
+    "zh-tw": "中核市"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q2264924": {
+    "en": "port city",
+    "zh": "港湾城市",
+    "zh-cn": "港湾城市"
+   },
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   },
+   "Q677678": {
+    "en": "fortified town",
+    "zh": "城池",
+    "zh-hans": "城池"
+   }
+  },
+  "Q15674": {
+   "Q1137833": {
+    "en": "core city of Japan",
+    "zh": "中核市",
+    "zh-hans": "中核市",
+    "zh-tw": "中核市"
+   },
+   "Q11422368": {
+    "en": "city for international conferences and tourism",
+    "zh": "國際會議觀光都市"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   },
+   "Q65589340": {
+    "en": "prefectural capital of Japan",
+    "zh-cn": "日本都道府县首府"
+   },
+   "Q909458": {
+    "en": "jōkamachi",
+    "zh": "城下町",
+    "zh-hans": "城下町",
+    "zh-tw": "城下町"
+   }
+  },
+  "Q181966": {
+   "Q1137833": {
+    "en": "core city of Japan",
+    "zh": "中核市",
+    "zh-hans": "中核市",
+    "zh-tw": "中核市"
+   },
+   "Q11422368": {
+    "en": "city for international conferences and tourism",
+    "zh": "國際會議觀光都市"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   },
+   "Q515": {
+    "en": "city",
+    "zh": "城市",
+    "zh-cn": "城市",
+    "zh-hans": "城市",
+    "zh-tw": "城市"
+   },
+   "Q65589340": {
+    "en": "prefectural capital of Japan",
+    "zh-cn": "日本都道府县首府"
+   }
+  },
+  "Q46747": {
+   "Q11422368": {
+    "en": "city for international conferences and tourism",
+    "zh": "國際會議觀光都市"
+   },
+   "Q11499984": {
+    "en": "educational town",
+    "zh-tw": "文教都市"
+   },
+   "Q1187811": {
+    "en": "college town",
+    "zh": "大学城",
+    "zh-cn": "大学城",
+    "zh-hans": "大学城",
+    "zh-tw": "大學城"
+   },
+   "Q137547946": {
+    "en": "Forest City"
+   },
+   "Q1749269": {
+    "en": "city designated by government ordinance",
+    "zh": "政令指定都市",
+    "zh-cn": "政令指定都市",
+    "zh-hans": "政令指定都市",
+    "zh-tw": "政令指定都市"
+   },
+   "Q65589340": {
+    "en": "prefectural capital of Japan",
+    "zh-cn": "日本都道府县首府"
+   }
+  },
+  "Q48320": {
+   "Q11422368": {
+    "en": "city for international conferences and tourism",
+    "zh": "國際會議觀光都市"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q1749269": {
+    "en": "city designated by government ordinance",
+    "zh": "政令指定都市",
+    "zh-cn": "政令指定都市",
+    "zh-hans": "政令指定都市",
+    "zh-tw": "政令指定都市"
+   },
+   "Q2264924": {
+    "en": "port city",
+    "zh": "港湾城市",
+    "zh-cn": "港湾城市"
+   },
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   },
+   "Q65589340": {
+    "en": "prefectural capital of Japan",
+    "zh-cn": "日本都道府县首府"
+   }
+  },
+  "Q648280": {
+   "Q11753232": {
+    "en": "launch service provider",
+    "zh": "發射服務商"
+   },
+   "Q1480166": {
+    "en": "kabushiki gaisha",
+    "zh-cn": "株式会社",
+    "zh-hans": "株式会社",
+    "zh": "株式會社",
+    "zh-tw": "株式會社"
+   },
+   "Q190928": {
+    "en": "shipyard",
+    "zh": "造船厂",
+    "zh-tw": "造船廠"
+   },
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   },
+   "Q60997538": {
+    "en": "kōkai gaisha",
+    "zh": "上市公司"
+   },
+   "Q6881511": {
+    "en": "enterprise",
+    "zh": "工商企业",
+    "zh-cn": "工商企业",
+    "zh-hans": "工商企业",
+    "zh-tw": "工商企業"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q72": {
+   "Q1187811": {
+    "en": "college town",
+    "zh": "大学城",
+    "zh-cn": "大学城",
+    "zh-hans": "大学城",
+    "zh-tw": "大學城"
+   },
+   "Q14770218": {
+    "en": "cantonal capital of Switzerland",
+    "zh-hans": "州府",
+    "zh": "首府"
+   },
+   "Q51929311": {
+    "en": "largest city",
+    "zh": "最大城市",
+    "zh-cn": "最大城市",
+    "zh-hans": "最大城市"
+   },
+   "Q70208": {
+    "en": "municipality of Switzerland",
+    "zh-hans": "城镇",
+    "zh": "市镇"
+   }
+  },
+  "Q16666": {
+   "Q1208802": {
+    "en": "direct-administered municipality",
+    "zh-tw": "直轄市",
+    "zh": "直辖市",
+    "zh-cn": "直辖市",
+    "zh-hans": "直辖市"
+   },
+   "Q137640468": {
+    "en": "provincial capital",
+    "zh": "省会"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q250811": {
+    "en": "sub-province-level division",
+    "zh": "副省级市",
+    "zh-cn": "副省级市",
+    "zh-hans": "副省级行政区划"
+   },
+   "Q27554677": {
+    "en": "former capital",
+    "zh": "古都"
+   },
+   "Q515": {
+    "en": "city",
+    "zh": "城市",
+    "zh-cn": "城市",
+    "zh-hans": "城市",
+    "zh-tw": "城市"
+   },
+   "Q748149": {
+    "en": "prefecture-level city of China",
+    "zh-tw": "地級市",
+    "zh": "地级市",
+    "zh-cn": "地级市",
+    "zh-hans": "地级市"
+   }
+  },
+  "Q170322": {
+   "Q12102963": {
+    "en": "city specifically designated in the state plan",
+    "zh": "计划单列市",
+    "zh-cn": "计划单列市",
+    "zh-hans": "计划单列市"
+   },
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q250811": {
+    "en": "sub-province-level division",
+    "zh": "副省级市",
+    "zh-cn": "副省级市",
+    "zh-hans": "副省级行政区划"
+   },
+   "Q748149": {
+    "en": "prefecture-level city of China",
+    "zh-tw": "地級市",
+    "zh": "地级市",
+    "zh-cn": "地级市",
+    "zh-hans": "地级市"
+   }
+  },
+  "Q1508849": {
+   "Q124343324": {
+    "en": "Chinese state-owned enterprise",
+    "zh": "中国国有企业"
+   },
+   "Q138772339": {
+    "en": "PLA factory"
+   },
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   },
+   "Q658255": {
+    "en": "subsidiary company",
+    "zh": "子公司",
+    "zh-hans": "子公司",
+    "zh-tw": "子公司"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q41278": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q2264924": {
+    "en": "port city",
+    "zh": "港湾城市",
+    "zh-cn": "港湾城市"
+   },
+   "Q482821": {
+    "en": "metropolitan city of South Korea",
+    "zh": "广域市",
+    "zh-hans": "广域市",
+    "zh-tw": "廣域市"
+   },
+   "Q486972": {
+    "en": "human settlement",
+    "zh-cn": "人类聚居地",
+    "zh-hans": "人类聚居地",
+    "zh": "人類聚居地",
+    "zh-tw": "人類聚居地"
+   },
+   "Q515": {
+    "en": "city",
+    "zh": "城市",
+    "zh-cn": "城市",
+    "zh-hans": "城市",
+    "zh-tw": "城市"
+   }
+  },
+  "Q34664": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q1749269": {
+    "en": "city designated by government ordinance",
+    "zh": "政令指定都市",
+    "zh-cn": "政令指定都市",
+    "zh-hans": "政令指定都市",
+    "zh-tw": "政令指定都市"
+   },
+   "Q2264924": {
+    "en": "port city",
+    "zh": "港湾城市",
+    "zh-cn": "港湾城市"
+   },
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   },
+   "Q65589340": {
+    "en": "prefectural capital of Japan",
+    "zh-cn": "日本都道府县首府"
+   }
+  },
+  "Q171943": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q748149": {
+    "en": "prefecture-level city of China",
+    "zh-tw": "地級市",
+    "zh": "地级市",
+    "zh-cn": "地级市",
+    "zh-hans": "地级市"
+   }
+  },
+  "Q210667": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   }
+  },
+  "Q179608": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q748149": {
+    "en": "prefecture-level city of China",
+    "zh-tw": "地級市",
+    "zh": "地级市",
+    "zh-cn": "地级市",
+    "zh-hans": "地级市"
+   }
+  },
+  "Q179691": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q1749269": {
+    "en": "city designated by government ordinance",
+    "zh": "政令指定都市",
+    "zh-cn": "政令指定都市",
+    "zh-hans": "政令指定都市",
+    "zh-tw": "政令指定都市"
+   },
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   },
+   "Q65589340": {
+    "en": "prefectural capital of Japan",
+    "zh-cn": "日本都道府县首府"
+   }
+  },
+  "Q20927": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q482821": {
+    "en": "metropolitan city of South Korea",
+    "zh": "广域市",
+    "zh-hans": "广域市",
+    "zh-tw": "廣域市"
+   }
+  },
+  "Q68481": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q2264924": {
+    "en": "port city",
+    "zh": "港湾城市",
+    "zh-cn": "港湾城市"
+   },
+   "Q748149": {
+    "en": "prefecture-level city of China",
+    "zh-tw": "地級市",
+    "zh": "地级市",
+    "zh-cn": "地级市",
+    "zh-hans": "地级市"
+   }
+  },
+  "Q245023": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q2225003": {
+    "en": "special municipality",
+    "zh": "直轄市",
+    "zh-cn": "直轄市",
+    "zh-tw": "直轄市",
+    "zh-hans": "直辖市"
+   },
+   "Q515": {
+    "en": "city",
+    "zh": "城市",
+    "zh-cn": "城市",
+    "zh-hans": "城市",
+    "zh-tw": "城市"
+   }
+  },
+  "Q713381": {
+   "Q1549591": {
+    "en": "big city",
+    "zh": "大城市",
+    "zh-cn": "大城市",
+    "zh-hans": "大城市",
+    "zh-tw": "大城市"
+   },
+   "Q47248051": {
+    "en": "Indigenous Area",
+    "zh": "原住民族地區",
+    "zh-tw": "原住民族地區"
+   },
+   "Q713146": {
+    "en": "county-administered city",
+    "zh-hans": "县辖市",
+    "zh": "縣轄市",
+    "zh-tw": "縣轄市"
+   }
+  },
+  "Q165765": {
+   "Q1589009": {
+    "en": "privately held company",
+    "zh-hans": "封闭型公司",
+    "zh": "私人公司",
+    "zh-tw": "閉鎖性公司"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q219501": {
+   "Q1934969": {
+    "en": "defense contractor",
+    "zh-hans": "国防合约商",
+    "zh": "國防合約商",
+    "zh-tw": "國防承包商"
+   },
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q181557": {
+   "Q2225003": {
+    "en": "special municipality",
+    "zh": "直轄市",
+    "zh-cn": "直轄市",
+    "zh-tw": "直轄市",
+    "zh-hans": "直辖市"
+   }
+  },
+  "Q155573": {
+   "Q43229": {
+    "en": "organization",
+    "zh-tw": "組織",
+    "zh": "组织",
+    "zh-cn": "组织",
+    "zh-hans": "组织"
+   },
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   }
+  },
+  "Q890180": {
+   "Q43229": {
+    "en": "organization",
+    "zh-tw": "組織",
+    "zh": "组织",
+    "zh-cn": "组织",
+    "zh-hans": "组织"
+   }
+  },
+  "Q131800506": {
+   "Q43229": {
+    "en": "organization",
+    "zh-tw": "組織",
+    "zh": "组织",
+    "zh-cn": "组织",
+    "zh-hans": "组织"
+   }
+  },
+  "Q994221": {
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q1374128": {
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   }
+  },
+  "Q1032384": {
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   }
+  },
+  "Q7034277": {
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   },
+   "Q6881511": {
+    "en": "enterprise",
+    "zh": "工商企业",
+    "zh-cn": "工商企业",
+    "zh-hans": "工商企业",
+    "zh-tw": "工商企業"
+   }
+  },
+  "Q891779": {
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q1656412": {
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q1127527": {
+   "Q4830453": {
+    "en": "business",
+    "zh-cn": "企业",
+    "zh-hans": "企业",
+    "zh": "企業",
+    "zh-tw": "商號"
+   }
+  },
+  "Q38234": {
+   "Q494721": {
+    "en": "city of Japan",
+    "zh": "日本的市",
+    "zh-hans": "日本的市",
+    "zh-tw": "日本的市"
+   }
+  },
+  "Q333498": {
+   "Q891723": {
+    "en": "public company",
+    "zh": "上市公司",
+    "zh-cn": "上市公司",
+    "zh-hans": "上市公司",
+    "zh-tw": "上市公司"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q105557": {
+   "Q891723": {
+    "en": "public company",
+    "zh": "上市公司",
+    "zh-cn": "上市公司",
+    "zh-hans": "上市公司",
+    "zh-tw": "上市公司"
+   },
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q3873394": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q734775": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q1939817": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q654907": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q634227": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q1426388": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q55525588": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  },
+  "Q549189": {
+   "Q936518": {
+    "en": "aerospace manufacturer",
+    "zh-cn": "航空制造商",
+    "zh-hans": "航空制造商",
+    "zh": "航空航天製造商",
+    "zh-tw": "航空製造商"
+   }
+  }
+ },
+ "p17": {
+  "Q1032384": [
+   "Q16"
+  ],
+  "Q105557": [
+   "Q155"
+  ],
+  "Q1127527": [
+   "Q30"
+  ],
+  "Q131800506": [
+   "Q142"
+  ],
+  "Q1374128": [
+   "Q148"
+  ],
+  "Q1426388": [
+   "Q30"
+  ],
+  "Q1508849": [
+   "Q148"
+  ],
+  "Q155573": [
+   "Q142",
+   "Q183"
+  ],
+  "Q15674": [
+   "Q17"
+  ],
+  "Q1656412": [
+   "Q145"
+  ],
+  "Q165765": [
+   "Q183"
+  ],
+  "Q16666": [
+   "Q148"
+  ],
+  "Q170322": [
+   "Q148"
+  ],
+  "Q171943": [
+   "Q148"
+  ],
+  "Q179608": [
+   "Q148"
+  ],
+  "Q179691": [
+   "Q17"
+  ],
+  "Q181557": [
+   "Q865"
+  ],
+  "Q181966": [
+   "Q17"
+  ],
+  "Q1939817": [
+   "Q17"
+  ],
+  "Q20927": [
+   "Q884"
+  ],
+  "Q210667": [
+   "Q17"
+  ],
+  "Q219501": [
+   "Q34"
+  ],
+  "Q245023": [
+   "Q865"
+  ],
+  "Q26418": [
+   "Q17"
+  ],
+  "Q3130": [
+   "Q408"
+  ],
+  "Q333498": [
+   "Q16"
+  ],
+  "Q34664": [
+   "Q17"
+  ],
+  "Q38234": [
+   "Q17"
+  ],
+  "Q3873394": [
+   "Q30"
+  ],
+  "Q41278": [
+   "Q884"
+  ],
+  "Q4408460": [
+   "Q159"
+  ],
+  "Q46747": [
+   "Q17"
+  ],
+  "Q48320": [
+   "Q17"
+  ],
+  "Q549189": [
+   "Q30"
+  ],
+  "Q55525588": [
+   "Q16"
+  ],
+  "Q634227": [
+   "Q30"
+  ],
+  "Q648280": [
+   "Q17"
+  ],
+  "Q654907": [
+   "Q145"
+  ],
+  "Q68481": [
+   "Q148"
+  ],
+  "Q7034277": [
+   "Q17"
+  ],
+  "Q713381": [
+   "Q865"
+  ],
+  "Q72": [
+   "Q39"
+  ],
+  "Q727": [
+   "Q55"
+  ],
+  "Q734775": [
+   "Q159"
+  ],
+  "Q84": [
+   "Q145"
+  ],
+  "Q890180": [
+   "Q16"
+  ],
+  "Q891779": [
+   "Q16"
+  ],
+  "Q90": [
+   "Q142"
+  ],
+  "Q965204": [
+   "Q145"
+  ],
+  "Q994221": [
+   "Q148"
+  ]
+ },
+ "aliases": {
+  "Q1021645": [
+   "写字楼",
+   "办公大楼",
+   "办公楼",
+   "辦公大樓",
+   "辦公室建築",
+   "辦公樓"
+  ],
+  "Q105481325": [
+   "Toki Air"
+  ],
+  "Q1054857": [
+   "RJSS",
+   "SDJ",
+   "Sendai International Airport",
+   "仙台國際機場",
+   "仙台机场",
+   "仙台空港"
+  ],
+  "Q1054923": [
+   "British Administration",
+   "British colonial Hong Kong",
+   "British HK",
+   "colonial HK",
+   "colonial Hongkong",
+   "colonial Hong Kong",
+   "HK (British)",
+   "HK (British colony)",
+   "HK (colonial)",
+   "Hongkong",
+   "Hong Kong",
+   "Hong-Kong",
+   "殖民地政府",
+   "港英",
+   "港英",
+   "港英",
+   "港英",
+   "港英政府",
+   "港英時代",
+   "英殖時期",
+   "英治香港",
+   "英治香港",
+   "英治香港",
+   "英治香港",
+   "英治香港時期",
+   "香港",
+   "香港",
+   "香港政府",
+   "香港殖民地",
+   "香港殖民地",
+   "香港殖民地",
+   "香港殖民地"
+  ],
+  "Q1057026": [
+   "air freight carrier",
+   "airfreight carrier"
+  ],
+  "Q1064065": [
+   "China Development Bank Corpration",
+   "中国国家开发银行",
+   "国家开发银行股份有限公司",
+   "国开行",
+   "國家開發銀行"
+  ],
+  "Q1065118": [
+   "Chinese district",
+   "district",
+   "district in China",
+   "qu",
+   "中国的区",
+   "中国的市辖区",
+   "区",
+   "市辖区",
+   "市辖区",
+   "市辖区 (中华人民共和国)"
+  ],
+  "Q1066984": [
+   "financial centre"
+  ],
+  "Q1072354": [
+   "Chulocock",
+   "Chulocock Island",
+   "機場島",
+   "赤立角",
+   "赤腊角",
+   "赤臘角",
+   "赤鱲角島",
+   "赤𫚭角"
+  ],
+  "Q1073535": [
+   "Chinese ETDZ",
+   "Economic and Technical Development Zone",
+   "Economic ＆ Technical Development Zone",
+   "Economic-Technological Development Area",
+   "Economy and Technology Development Area",
+   "EDA",
+   "ETDA",
+   "ETDZ",
+   "ETDZ (China)",
+   "ETZ",
+   "National Economic and Technological Development Zone",
+   "NETDZ",
+   "state-level development zone",
+   "state-level economic development zone",
+   "国家经开区",
+   "国家经济技术开发区",
+   "经济技术开发区"
+  ],
+  "Q108178728": [
+   "country capital",
+   "national capital city",
+   "official national capital",
+   "official national capital city",
+   "state capital (country)"
+  ],
+  "Q10867816": [
+   "Shanghai",
+   "Shanghai Municipality, Republic of China",
+   "Shanghai (Republic of China)",
+   "Shanqhae",
+   "上海特别市",
+   "中华民国上海市",
+   "淞滬特別市"
+  ],
+  "Q10874222": [
+   "CFTE",
+   "China Flight Test Establishment",
+   "China Flight Test Institute",
+   "阎良试飞院"
+  ],
+  "Q10874735": [
+   "CNAF",
+   "中国航油",
+   "中国航空油料集团公司",
+   "中國航油",
+   "中國航空油料集團公司"
+  ],
+  "Q10911437": [
+   "厦门建发",
+   "厦门建发股份有限公司",
+   "厦门建发集团有限公司",
+   "厦门经济特区建设发展公司",
+   "廈門建發",
+   "廈門建發集團",
+   "廈門經濟特區建設發展公司",
+   "建发",
+   "建发股份",
+   "建发集团",
+   "建發",
+   "建發股份",
+   "建發集團"
+  ],
+  "Q10925968": [
+   "国家局"
+  ],
+  "Q10926656": [
+   "上海圆通国际货物运输代理有限公司",
+   "上海圆通新龙电子商务有限公司",
+   "上海圆通物流有限公司",
+   "上海圆通速递有限公司",
+   "上海圆通速递物流（集团）有限公司",
+   "圆通",
+   "圓通速遞"
+  ],
+  "Q110376455": [
+   "澳洲政府機構"
+  ],
+  "Q11303": [
+   "high-rise",
+   "摩天楼"
+  ],
+  "Q1137465": [
+   "FUK",
+   "RJFF",
+   "福冈机场",
+   "福岡國際機場"
+  ],
+  "Q1137833": [
+   "Core cities of Japan"
+  ],
+  "Q1141068": [
+   "Naka-ku, Yokohama",
+   "中区"
+  ],
+  "Q1141162": [
+   "Taikoo",
+   "太古集团",
+   "施銘倫",
+   "英國太古集團有限公司",
+   "香港太古集團有限公司"
+  ],
+  "Q1141716": [
+   "S76",
+   "Sikorsky S-76",
+   "Sikorsky S-76 Spirit",
+   "西科斯基 S-76型直升機",
+   "西科斯基 S-76型精靈"
+  ],
+  "Q1153846": [
+   "Mitsubishi Regional Jet",
+   "MRJ",
+   "MRJ70",
+   "MRJ90"
+  ],
+  "Q1155685": [
+   "HKD",
+   "RJCH",
+   "函館"
+  ],
+  "Q1156273": [
+   "Chuo",
+   "Chūō",
+   "Chuo-ku",
+   "中央区"
+  ],
+  "Q1156310": [
+   "KOJ",
+   "RJFK",
+   "鹿児島"
+  ],
+  "Q1156790": [
+   "TAO",
+   "ZSQD",
+   "流亭國際機場",
+   "流亭机场",
+   "青岛流亭国际机场",
+   "青岛流亭机场",
+   "青島機場"
+  ],
+  "Q11575035": [
+   "sankei.jp",
+   "Sankei Shimbun Co., Ltd.",
+   "产经Digital",
+   "产经Digital",
+   "产经Digital",
+   "产经新闻社",
+   "产经新闻社",
+   "產經新聞社"
+  ],
+  "Q11648349": [
+   "鈴与株式会社",
+   "鈴與控股股份有限公司"
+  ],
+  "Q1187811": [
+   "college community",
+   "university town",
+   "大学城市",
+   "大学镇",
+   "大学镇",
+   "大学镇",
+   "高教园",
+   "高教园区",
+   "高教園",
+   "高教園區"
+  ],
+  "Q1197536": [
+   "KIJ",
+   "RJSN",
+   "新潟",
+   "新潟空港"
+  ],
+  "Q1200957": [
+   "recreation area",
+   "tourism destination",
+   "tourism region"
+  ],
+  "Q1208802": [
+   "direct-administrated municipality",
+   "direct-controlled municipality",
+   "municipality",
+   "province-level municipality",
+   "直轄市"
+  ],
+  "Q12100493": [
+   "government fund",
+   "дзяржаўны мэтавы фонд"
+  ],
+  "Q12102963": [
+   "国家社会与经济发展计划单列市",
+   "国家社会与经济发展计划单列市"
+  ],
+  "Q123217589": [
+   "China Southern Air Holding Company Limited"
+  ],
+  "Q12357832": [
+   "ADM2",
+   "adm2nd",
+   "second level administrative country subdivision",
+   "second order administrative division",
+   "second-order administrative division"
+  ],
+  "Q123705": [
+   "city section",
+   "district",
+   "neighbourhood",
+   "quarter",
+   "subdistrict",
+   "小区",
+   "街坊",
+   "近在眼前",
+   "近鄰",
+   "鄰人",
+   "鄰居",
+   "鄰舍",
+   "鄰里",
+   "鄰里社區",
+   "隔壁"
+  ],
+  "Q124313007": [
+   "metropolis of Japan",
+   "to"
+  ],
+  "Q124343324": [
+   "China′s state Owned Enterprise",
+   "Chinese SOE",
+   "Chinese state owned enterprise",
+   "state-owned enterprise in China",
+   "state-owned enterprise of China"
+  ],
+  "Q1248784": [
+   "aerodrome",
+   "air port",
+   "airports",
+   "商用机场",
+   "机场",
+   "航空港",
+   "航空站",
+   "飛機場",
+   "飞机场",
+   "飞机坝"
+  ],
+  "Q125470455": [
+   "中国关税区",
+   "中国关税地区"
+  ],
+  "Q127692373": [
+   "FUSHUN LIMITED",
+   "Nan Lung Holding Limited",
+   "NAN LUNG TRAVEL & EXPRESS (HONG KONG) LIMITED"
+  ],
+  "Q129268952": [
+   "former federal capital"
+  ],
+  "Q131005": [
+   "Cie Nationale Air France",
+   "Société Aerienne Francaise d'Affretement",
+   "Société Air France, S.A.",
+   "法国航空",
+   "法国航空公司",
+   "法國航空公司",
+   "法國航空貨運",
+   "法航"
+  ],
+  "Q1319224": [
+   "JALways"
+  ],
+  "Q1329619": [
+   "CAAC",
+   "CAAC",
+   "General Administration of Civil Aviation of China",
+   "Zhōngguó Mínyòng Hángkōng Jú",
+   "中国民用航空总局",
+   "中国民航",
+   "中国民航局",
+   "中国民航局",
+   "中国民航局",
+   "中国民航总局",
+   "中國民用航空總局",
+   "中國民航總局",
+   "民航局",
+   "民航局",
+   "民航總局"
+  ],
+  "Q1330839": [
+   "博多",
+   "博多区"
+  ],
+  "Q1332242": [
+   "Tōkyū",
+   "Tokyu Corporation",
+   "Tōkyū Corporation",
+   "東急公司",
+   "東急集團"
+  ],
+  "Q133442": [
+   "city state",
+   "城市國家",
+   "城邦国家",
+   "都市国家"
+  ],
+  "Q13426199": [
+   "China (1912–1949)",
+   "China 1912–1949",
+   "Republic of China (1912–1949)",
+   "Republic of China 1912–1949",
+   "Republic of China before 1949",
+   "Republic of China (mainland)",
+   "ROC",
+   "ROC 1912–1949",
+   "中华民国",
+   "中华民国 (大陆时期)",
+   "中华民国大陆时期",
+   "中国",
+   "中国大陆民国时期",
+   "中國",
+   "中國大陸民國時期",
+   "中華民國",
+   "中華民國",
+   "中華民國 (大陸時期)",
+   "中華民國 (大陸時期)",
+   "民国",
+   "民国",
+   "民国时期",
+   "民国时期",
+   "民國",
+   "民國時期"
+  ],
+  "Q134778326": [
+   "Springtour",
+   "春秋国旅"
+  ],
+  "Q1351282": [
+   "British colony",
+   "British crown colony",
+   "colony of the British Empire",
+   "Crown Colony",
+   "royal colony",
+   "UK colony"
+  ],
+  "Q1375451": [
+   "KHN",
+   "ZSCN",
+   "南昌/昌北",
+   "南昌昌北机场",
+   "南昌機場",
+   "昌北国际机场",
+   "昌北機場"
+  ],
+  "Q137640468": [
+   "capital of a province"
+  ],
+  "Q137773": [
+   "ku",
+   "ward of city in Japan",
+   "日本行政区",
+   "日本行政區",
+   "行政區"
+  ],
+  "Q1378975": [
+   "conference center",
+   "conference centre",
+   "conference facility",
+   "conference venue",
+   "congress center",
+   "congress centre",
+   "congress facility",
+   "convention centre",
+   "convention facility",
+   "convention hall",
+   "展場",
+   "展覽中心",
+   "展覽場地",
+   "展覽廳",
+   "展館"
+  ],
+  "Q142": [
+   "French Republic",
+   "法兰西",
+   "法兰西",
+   "法兰西",
+   "法兰西共和国",
+   "法兰西共和国",
+   "法兰西共和国",
+   "法国",
+   "法蘭西",
+   "法蘭西",
+   "法蘭西共和國",
+   "法蘭西共和國"
+  ],
+  "Q145": [
+   "G B",
+   "Great Britain",
+   "Great Britain and Northern Ireland",
+   "the UK",
+   "the United Kingdom",
+   "the United Kingdom of Great Britain and Northern Ireland",
+   "U K",
+   "United Kingdom of Great Britain and Northern Ireland",
+   "不列颠",
+   "不列颠",
+   "大不列顛暨北愛爾蘭聯合王國",
+   "大不列颠及北爱尔兰联合王国",
+   "大不列颠及北爱尔兰联合王国",
+   "大不列颠及北爱尔兰联合王国",
+   "联合王国",
+   "联合王国",
+   "联合王国",
+   "聯合王國"
+  ],
+  "Q1478918": [
+   "Nippon Yusen Kabushiki Kaisha",
+   "NYK",
+   "NYK Line",
+   "The Nippon Yusen Kaisha"
+  ],
+  "Q1480166": [
+   "Co. Ltd.",
+   "Co., Ltd.",
+   "Company Limited",
+   "Company, Limited",
+   "Japanese corporation",
+   "kabushiki-gaisha",
+   "kabushikigaisha",
+   "kabushiki kaisha",
+   "kabushiki-kaisha",
+   "K.G.",
+   "K.K.",
+   "KK"
+  ],
+  "Q1497364": [
+   "building cluster",
+   "building group",
+   "complex",
+   "complex of buildings",
+   "group of buildings",
+   "pile",
+   "建筑综合体",
+   "建筑群体",
+   "综合体建筑",
+   "群体建筑"
+  ],
+  "Q15056993": [
+   "acfam",
+   "aircraft class",
+   "aircraft series",
+   "airliner family",
+   "airliner series"
+  ],
+  "Q15056995": [
+   "acmod",
+   "aircraft variant",
+   "aircraft version",
+   "airplane model",
+   "model of aircraft",
+   "plane model",
+   "机型",
+   "航空器型号",
+   "飞机型号",
+   "飞机版本"
+  ],
+  "Q15111575": [
+   "787-9",
+   "787-9 Dreamliner",
+   "B787-9",
+   "B789",
+   "Boeing 787-9 Dreamliner"
+  ],
+  "Q15114": [
+   "Flughafen Zürich",
+   "Kloten Airport",
+   "LSZH",
+   "ZRH",
+   "ZURICH airport",
+   "Zürich Airport",
+   "Zurich International Airport"
+  ],
+  "Q15180": [
+   "CCCP",
+   "SU",
+   "the Soviets",
+   "the Soviet Union",
+   "the USSR",
+   "Union of Soviet Socialist Republics",
+   "U.S.S.R.",
+   "USSR",
+   "前苏联",
+   "前苏联",
+   "前蘇聯",
+   "苏维埃社会主义共和国联盟",
+   "苏维埃社会主义共和国联盟",
+   "苏维埃社会主义共和国联邦",
+   "苏维埃社会主义国家联盟",
+   "苏维埃社会主义国家联盟",
+   "蘇維埃社會主義共和國聯盟",
+   "蘇維埃社會主義共和國聯邦",
+   "蘇維埃社會主義共和國聯邦",
+   "蘇維埃社會主義國家聯盟"
+  ],
+  "Q15253706": [
+   "city (administrative division)",
+   "建制市"
+  ],
+  "Q1549591": [
+   "city (100,000+)"
+  ],
+  "Q155": [
+   "Federative Republic of Brazil"
+  ],
+  "Q15634846": [
+   "首尔的区"
+  ],
+  "Q15661340": [
+   "ancient town",
+   "extinct city",
+   "former city",
+   "historical city"
+  ],
+  "Q1575075": [
+   "Handley Page H.P.R.1",
+   "HP Marathon",
+   "Miles Marathon"
+  ],
+  "Q160266": [
+   "Coot",
+   "IL18",
+   "Ilyushin Il-18 Coot",
+   "伊留申伊尔-18"
+  ],
+  "Q161243": [
+   "autonomous territory",
+   "dependency",
+   "dependent area",
+   "境外属地",
+   "境外領地",
+   "境外领",
+   "境外领土",
+   "屬地",
+   "海外地区",
+   "海外属地",
+   "海外省",
+   "海外領地",
+   "海外领土",
+   "自治國",
+   "附屬地"
+  ],
+  "Q163740": [
+   "citizen sector organization",
+   "civil association",
+   "civil society organization",
+   "non-profit",
+   "nonprofit",
+   "non-profit agency",
+   "non-profit institution",
+   "nonprofit institution",
+   "non-profit organisation",
+   "nonprofit organisation",
+   "non profit organization",
+   "non-profit organization",
+   "not for profit institution",
+   "not-for-profit organisation",
+   "not for profit organization",
+   "not-for-profit organization",
+   "NPI",
+   "np organization",
+   "Organizations, Nonprofit",
+   "不牟利團體",
+   "非營利",
+   "非營利事業",
+   "非營利機構",
+   "非牟利",
+   "非牟利團體",
+   "非牟利機構",
+   "非牟利組織",
+   "非营利性组织",
+   "非营利组织"
+  ],
+  "Q170131": [
+   "RAF TriStar",
+   "RAF TriStar",
+   "TriStar C2",
+   "TriStar C2",
+   "TriStar C2A",
+   "TriStar C2A",
+   "TriStar K1",
+   "TriStar K1",
+   "TriStar KC1",
+   "TriStar KC1"
+  ],
+  "Q17143371": [
+   "gun"
+  ],
+  "Q171441": [
+   "飞地"
+  ],
+  "Q174091": [
+   "Ch'ang-sha",
+   "Chang-sha",
+   "Changsha, China",
+   "Changsha, Hunan",
+   "Changsha Shi",
+   "Ch'ang-sha Shih",
+   "Chang-sha Shih",
+   "Ch'ing-yang",
+   "Ching-yang",
+   "Lin-hsiang",
+   "Linxiang",
+   "Qingyang",
+   "T'an",
+   "Tan",
+   "T'an-chou",
+   "Tanzhou",
+   "临湘",
+   "潭",
+   "潭州",
+   "臨湘",
+   "長沙",
+   "長沙",
+   "長沙市",
+   "长沙",
+   "长沙",
+   "青阳",
+   "青陽"
+  ],
+  "Q174844": [
+   "巨型城市",
+   "鉅型城市"
+  ],
+  "Q1749269": [
+   "designated city",
+   "government ordinance city",
+   "Seirei shitei toshi",
+   "指定市",
+   "指定都市",
+   "政令市",
+   "政令都市"
+  ],
+  "Q17581": [
+   "Kingsford-Smith Airport",
+   "SYD",
+   "SYDNEY",
+   "Sydney (Kingsford Smith) Airport",
+   "Sydney (Kingsford-Smith) Airport",
+   "YSSY"
+  ],
+  "Q1807108": [
+   "shipping company",
+   "航运公司"
+  ],
+  "Q181912": [
+   "KL",
+   "KLM",
+   "KLM Airlines",
+   "K.L.M. Royal Dutch Airlines",
+   "KLM Royal Dutch Airlines",
+   "Koninklijke Luchtvaart Maatschappij",
+   "Koninklijke Luchtvaart Maatschappij (KLM)",
+   "Koninklijke Luchtvaart Maatschappij N.V.",
+   "皇家荷蘭航空",
+   "皇家荷蘭航空公司",
+   "荷兰亚洲航空公司",
+   "荷兰皇家航空公司",
+   "荷兰航空",
+   "荷航",
+   "荷蘭KLM",
+   "荷蘭亞洲航空公司",
+   "荷蘭皇家航空公司",
+   "荷蘭航空"
+  ],
+  "Q18325841": [
+   "public transport system"
+  ],
+  "Q190915": [
+   "budget airline",
+   "discount airline",
+   "LCC",
+   "LCC",
+   "low-cost carrier",
+   "低價航空",
+   "低價航空公司",
+   "低成本航空",
+   "廉价航空",
+   "廉價航空",
+   "廉價航空公司",
+   "廉航"
+  ],
+  "Q197952": [
+   "企业集团",
+   "企業集團",
+   "跨產業",
+   "集團"
+  ],
+  "Q19953632": [
+   "extinct administrative division",
+   "former administrative division",
+   "former country subdivision",
+   "former state",
+   "前行政区划",
+   "前行政區劃",
+   "前行政區劃",
+   "前行政领土实体",
+   "历史行政区划",
+   "历史行政领土实体",
+   "已撤銷行政區劃",
+   "已撤銷行政區劃",
+   "旧行政区划",
+   "旧行政领土实体",
+   "歷史行政區劃",
+   "歷史行政領土實體",
+   "舊行政區劃"
+  ],
+  "Q200250": [
+   "metro city",
+   "大都會 (地理)"
+  ],
+  "Q2061234": [
+   "Y-10",
+   "Y10",
+   "运十"
+  ],
+  "Q206592": [
+   "aircraft with jet engines",
+   "jet",
+   "jet aircraft, aeroplane",
+   "jet aircraft, airplane",
+   "jet aircraft, fixed-wing",
+   "jet aircraft, plane",
+   "powered aircraft, jet",
+   "喷气式客机",
+   "噴射機",
+   "噴氣機"
+  ],
+  "Q207700": [
+   "An-2",
+   "An-2 Colt",
+   "An-2 輕航機",
+   "Annie"
+  ],
+  "Q208511": [
+   "alpha city",
+   "world center",
+   "world city",
+   "世界城市",
+   "世界級城市",
+   "世界級都市",
+   "世界级城市",
+   "全球都市",
+   "國際大城市",
+   "國際大都會"
+  ],
+  "Q209683": [
+   "Tokoname-shi"
+  ],
+  "Q210932": [
+   "commercial air transport plane",
+   "commercial transport aircraft, fixed-wing",
+   "commercial transport airplane",
+   "fixed-wing commercial transport aircraft",
+   "客机",
+   "客机",
+   "客机",
+   "客機",
+   "客機",
+   "民航固定翼機",
+   "民航客机",
+   "民航客机",
+   "民航客机",
+   "民航客機",
+   "民航客機",
+   "飞行中"
+  ],
+  "Q2140324": [
+   "360",
+   "S360",
+   "SD-360",
+   "SD3-60",
+   "SD360",
+   "Shorts 360",
+   "Shorts SD3-60"
+  ],
+  "Q215175": [
+   "Koto City",
+   "Koto-ku",
+   "Kōtō-ku",
+   "Koto Ward"
+  ],
+  "Q217234": [
+   "Ōta",
+   "Ota City",
+   "Ota-ku",
+   "Ōta-ku",
+   "Ota Ward",
+   "大田區"
+  ],
+  "Q219577": [
+   "holding",
+   "Holding",
+   "holding companies",
+   "holding group",
+   "holdings",
+   "控股",
+   "青木控股AOKI"
+  ],
+  "Q2225003": [
+   "Special municipality (Taiwan)",
+   "中华民国直辖市",
+   "中华民国直辖市",
+   "中華民國直轄市",
+   "台湾直辖市",
+   "台湾直辖市",
+   "直辖市",
+   "臺灣直轄市"
+  ],
+  "Q2264924": [
+   "harbor city",
+   "harbor town",
+   "harbour city",
+   "harbour town",
+   "port town",
+   "港口城市",
+   "港口都市"
+  ],
+  "Q2335057": [
+   "RJTI"
+  ],
+  "Q23442": [
+   "islands",
+   "isle",
+   "岛",
+   "岛",
+   "岛屿",
+   "島",
+   "嶼"
+  ],
+  "Q2440569": [
+   "commuter airline",
+   "支線航班",
+   "支线航空公司",
+   "支线航空公司"
+  ],
+  "Q244479": [
+   "172 Skyhawk",
+   "C-172",
+   "C172",
+   "Cessna Model 172 Skyhawk",
+   "Cessna Skyhawk",
+   "Skyhawk",
+   "塞斯納c172",
+   "塞斯納C-172"
+  ],
+  "Q24899387": [
+   "Grand Front Osaka"
+  ],
+  "Q250811": [
+   "sub-province-level city",
+   "sub-provincial city",
+   "sub-provincial division",
+   "中国副省级城市",
+   "中国副省级行政区划",
+   "中國副省級城市",
+   "副省級城市",
+   "副省級市",
+   "副省级城市",
+   "副省级城市"
+  ],
+  "Q2647541": [
+   "果海洞",
+   "機場洞"
+  ],
+  "Q26600": [
+   "Fukuoka City",
+   "福冈市"
+  ],
+  "Q271167": [
+   "Chungshan",
+   "Jhongshan",
+   "Jungshan",
+   "Zhongshan",
+   "中山",
+   "中山",
+   "台北中山",
+   "台北中山",
+   "台北市中山區",
+   "台北市中山區",
+   "臺北中山",
+   "臺北中山",
+   "臺北市中山區",
+   "臺北市中山區"
+  ],
+  "Q2735392": [
+   "helicopter utility aircraft",
+   "UH"
+  ],
+  "Q27554677": [
+   "historical capital of a political entity"
+  ],
+  "Q277491": [
+   "SF340",
+   "Tp 100"
+  ],
+  "Q28692646": [
+   "海上机场"
+  ],
+  "Q29045252": [
+   "administrative divisional unit of the Republic of Korea"
+  ],
+  "Q2914815": [
+   "東涌市中心"
+  ],
+  "Q2920759": [
+   "公交終站",
+   "公交終點站",
+   "公交總站",
+   "发车站",
+   "巴士总站",
+   "总站",
+   "枢纽站",
+   "起始站",
+   "首末站"
+  ],
+  "Q29999": [
+   "Kingdom of Netherlands",
+   "Nederlanden",
+   "Netherlands",
+   "the Netherlands",
+   "尼德兰王国",
+   "荷蘭王國"
+  ],
+  "Q30940640": [
+   "National Development Fund",
+   "國家發展基金",
+   "國發基金"
+  ],
+  "Q31855": [
+   "research company",
+   "research environment",
+   "research facility",
+   "研究中心",
+   "研究中心",
+   "研究中心",
+   "研究所",
+   "研究院"
+  ],
+  "Q3238350": [
+   "Nanning Airfield",
+   "Nanning Wuxu Airport",
+   "NNG",
+   "ZGNN",
+   "南宁/吴圩",
+   "南宁吴圩机场",
+   "南寧吳圩國際機場",
+   "南寧機場",
+   "吳圩機場",
+   "吴圩国际机场"
+  ],
+  "Q3273382": [
+   "HIW",
+   "RJBH",
+   "廣島直升飛機場",
+   "廣島西飛行場",
+   "旧广岛机场"
+  ],
+  "Q3337001": [
+   "country for sport",
+   "country for sports",
+   "sporting nationality",
+   "sports country",
+   "体育国家"
+  ],
+  "Q3495319": [
+   "Embraer E-Jet family",
+   "Embraer E-Jets",
+   "Erj-170",
+   "ERJ-170系列",
+   "Erj-175",
+   "ERJ-190",
+   "ERJ190",
+   "ERJ-195",
+   "巴西航太190"
+  ],
+  "Q35581": [
+   "Ainu Mosir",
+   "Akor Mosir",
+   "Aynu Mosir",
+   "Eso",
+   "Hokkaido",
+   "Hokkaido Island",
+   "Hokkaidō Island",
+   "Hokkaidou",
+   "Ieso",
+   "Iesso",
+   "Jeso",
+   "Jesse",
+   "Jesso",
+   "Land of Iesso",
+   "Yaun Mosir",
+   "Yeso",
+   "Yesso",
+   "北海道地區",
+   "北海道地方",
+   "北海道岛",
+   "北海道岛",
+   "北海道岛",
+   "北海道島",
+   "北海道島",
+   "虾夷岛"
+  ],
+  "Q3624078": [
+   "country",
+   "nation",
+   "sovereign country",
+   "sovereign nation",
+   "Westphalian state",
+   "主权国",
+   "主权国家",
+   "主權獨立國家",
+   "独立国家"
+  ],
+  "Q374558": [
+   "RCMQ",
+   "RMQ",
+   "Taichung Aero Airport",
+   "Taichung International Airport",
+   "台中國際機場",
+   "空軍清泉崗基地",
+   "空軍清泉崗基地",
+   "臺中國際機場",
+   "臺中國際機場",
+   "臺中國際航空站",
+   "臺中國際航空站",
+   "臺中機場",
+   "臺中機場",
+   "陸軍陸航清泉崗基地",
+   "陸軍陸航清泉崗基地"
+  ],
+  "Q39": [
+   "Confoederatio Helvetica",
+   "Swiss",
+   "Swiss Confederation",
+   "埃德蒙特·舒尔希斯",
+   "瑞士联邦",
+   "瑞士联邦",
+   "瑞士联邦",
+   "瑞士聯邦"
+  ],
+  "Q39893": [
+   "BK-117",
+   "BK117",
+   "Kawasaki BK 117",
+   "Kawasaki BK117",
+   "MBB BK 117",
+   "MBB BK117",
+   "MBB-Kawasaki BK 117",
+   "MBB-Kawasaki BK117",
+   "MBB/Kawasaki BK 117",
+   "MBB/川崎重工BK-117直升機",
+   "MBB/川崎重工BK-117直昇機"
+  ],
+  "Q407664": [
+   "Air Nippon Network"
+  ],
+  "Q408": [
+   "Aussieland",
+   "Commonwealth of Australia",
+   "Down Under",
+   "New Holland",
+   "New Hollandia",
+   "Nova Hollandia",
+   "Oz",
+   "Stralia",
+   "'Straya",
+   "Straya",
+   "Stria",
+   "The Commonwealth of Australia",
+   "澳",
+   "澳大利亚联邦",
+   "澳大利亚联邦",
+   "澳大利亚联邦",
+   "澳大利亞",
+   "澳大利亞",
+   "澳大利亞聯邦",
+   "澳州联邦",
+   "澳州聯邦",
+   "澳洲"
+  ],
+  "Q41176": [
+   "buildings",
+   "edifice",
+   "建筑",
+   "建築物"
+  ],
+  "Q424857": [
+   "ooaza"
+  ],
+  "Q426074": [
+   "A220",
+   "A220",
+   "Bombardier CS100",
+   "Bombardier CS300",
+   "Bombardier CSeries",
+   "龐巴迪C系列"
+  ],
+  "Q431289": [
+   "brandmark",
+   "假面戏剧",
+   "牌子"
+  ],
+  "Q43229": [
+   "institution",
+   "organisation",
+   "organisations",
+   "organizations",
+   "团体",
+   "團體",
+   "團體",
+   "社会团体",
+   "社会团体",
+   "社会团体",
+   "社会组织",
+   "社会组织",
+   "社會團體",
+   "社會團體",
+   "組織"
+  ],
+  "Q45296117": [
+   "aircraft class",
+   "type of aircraft",
+   "航空器种类",
+   "航空器類型"
+  ],
+  "Q46280": [
+   "Charles de Gaulle Airport",
+   "Paris CDG Airport",
+   "PARIS-CHARLES DE GAULLE",
+   "PARIS-CHARLES-DE-GAULLE",
+   "PARIS-CHARLES DE GAULLE airport",
+   "Roissy Airport",
+   "夏尔·戴高乐国际机场",
+   "夏尔·戴高乐机场",
+   "夏爾·戴高樂國際機場",
+   "巴黎－夏尔·戴高乐机场",
+   "巴黎戴高乐机场",
+   "巴黎機場",
+   "戴高乐国际机场",
+   "戴高乐机场",
+   "戴高樂國際機場",
+   "戴高樂機場",
+   "法国戴高乐机场"
+  ],
+  "Q46970": [
+   "air carrier",
+   "air company"
+  ],
+  "Q473058": [
+   "Hankyu Railway"
+  ],
+  "Q473625": [
+   "puddle jumper"
+  ],
+  "Q47896": [
+   "宫城县",
+   "宮城"
+  ],
+  "Q482821": [
+   "gwangyeoksi"
+  ],
+  "Q4830453": [
+   "businesses",
+   "事業",
+   "事業",
+   "事業體",
+   "企业",
+   "商业",
+   "商家"
+  ],
+  "Q483254": [
+   "RKTN",
+   "TAE",
+   "大邱機場"
+  ],
+  "Q483274": [
+   "Hanjin Group"
+  ],
+  "Q484730": [
+   "RKPU",
+   "USN"
+  ],
+  "Q486972": [
+   "human settlements",
+   "inhabited place",
+   "settlement",
+   "settlements",
+   "人类聚居地",
+   "人類住區",
+   "人類社區",
+   "定居點",
+   "聚居地",
+   "聚落"
+  ],
+  "Q48748864": [
+   "corporation",
+   "corporation (Japan)",
+   "hojin",
+   "hōjin",
+   "houjin"
+  ],
+  "Q488355": [
+   "HIN",
+   "RKPS"
+  ],
+  "Q490329": [
+   "administrative dong of South Korea"
+  ],
+  "Q494721": [
+   "city in Japan",
+   "city (Japan)"
+  ],
+  "Q494978": [
+   "SEZ",
+   "經濟特區",
+   "经济功能区"
+  ],
+  "Q496765": [
+   "普洱",
+   "普洱",
+   "普洱",
+   "普洱"
+  ],
+  "Q497341": [
+   "咸阳",
+   "咸阳",
+   "咸陽",
+   "咸陽"
+  ],
+  "Q499073": [
+   "中央直轄市",
+   "中央直轄市",
+   "中央直辖市",
+   "中央直辖市",
+   "中華民國直轄市",
+   "直轄市",
+   "直轄市",
+   "省級市",
+   "省級市",
+   "省级市",
+   "省级市",
+   "院轄市",
+   "院轄市",
+   "院辖市",
+   "院辖市"
+  ],
+  "Q5": [
+   "human being",
+   "individual Homo sapiens",
+   "modern human",
+   "non-fictional human",
+   "nonfictional human",
+   "people",
+   "person",
+   "人",
+   "人类",
+   "智人"
+  ],
+  "Q5016845": [
+   "上环"
+  ],
+  "Q502074": [
+   "rotor station"
+  ],
+  "Q50337": [
+   "prefectures of Japan",
+   "府縣",
+   "道府縣",
+   "都府縣"
+  ],
+  "Q505649": [
+   "Clobber",
+   "Iak-42",
+   "Yak-42",
+   "YAK42",
+   "Yakovlev Yak-42 Clobber"
+  ],
+  "Q5099568": [
+   "华航集团"
+  ],
+  "Q5124659": [
+   "civil enclave",
+   "civilian/military airport",
+   "civil/military airport",
+   "dual use aerodrome",
+   "dual use airfield",
+   "dual-use airfield",
+   "dual use airport",
+   "dual-use airport",
+   "dual-use military and civil airport",
+   "dual-use military and public airport",
+   "joint use aerodrome",
+   "joint use airfield",
+   "joint-use airfield",
+   "joint use airport",
+   "joint-use airport",
+   "joint-use civil-military airport",
+   "military/civilian airport",
+   "军民合用机场",
+   "軍民合用機場"
+  ],
+  "Q515": [
+   "cities"
+  ],
+  "Q51929311": [
+   "first large city"
+  ],
+  "Q5327369": [
+   "census block",
+   "chocho"
+  ],
+  "Q5327704": [
+   "ku",
+   "special ward",
+   "tokubetsuku",
+   "ward",
+   "ward of Japan",
+   "東京23區"
+  ],
+  "Q55": [
+   "de Nederlanden",
+   "Holland",
+   "Nederland",
+   "Nederlanden",
+   "the Netherlands",
+   "和蘭",
+   "尼德兰",
+   "尼德兰",
+   "尼德兰王国",
+   "尼德兰王国",
+   "尼德蘭",
+   "尼德蘭",
+   "尼德蘭王國",
+   "尼德蘭王國",
+   "紅毛蕃"
+  ],
+  "Q55558200": [
+   "LGA NSW",
+   "local government areas of New South Wales",
+   "NSW LGA"
+  ],
+  "Q559107": [
+   "NKG",
+   "ZSNJ",
+   "南京国际机场",
+   "南京机场",
+   "南京/禄口",
+   "南京禄口国际机场站",
+   "南京禄口机场",
+   "南京祿口國際機場",
+   "禄口国际机场",
+   "禄口机场"
+  ],
+  "Q57440517": [
+   "787-10",
+   "B787-10",
+   "B78X"
+  ],
+  "Q5753819": [
+   "Higashishimbashi",
+   "Higashi-Shimbashi",
+   "Higashishinbashi",
+   "東新橋 (東京都港區)"
+  ],
+  "Q62447": [
+   "airdrome",
+   "airfield",
+   "air navigation feature",
+   "机场"
+  ],
+  "Q6256": [
+   "countries",
+   "国家",
+   "国家与地区",
+   "国家和地区",
+   "国家、地区",
+   "国家地区",
+   "国家或地区",
+   "國家",
+   "國家和地區",
+   "國家、地區",
+   "國家地區",
+   "國家或地區",
+   "國家與地區",
+   "地区",
+   "地區",
+   "地區",
+   "政治實體"
+  ],
+  "Q644371": [
+   "国际机场",
+   "海关机场"
+  ],
+  "Q648864": [
+   "Canso",
+   "Catalina",
+   "Consolidated Model 28",
+   "Consolidated PBY Catalina",
+   "Model 28",
+   "Mop",
+   "Nomad",
+   "PBN Nomad",
+   "PBY Catalina",
+   "PBY Catalina",
+   "卡塔利娜斯"
+  ],
+  "Q65589340": [
+   "capital of a prefecture of Japan"
+  ],
+  "Q658255": [
+   "child company",
+   "daughter company",
+   "subsidiary",
+   "subsidiary business",
+   "subsidiary undertaking",
+   "一级子公司",
+   "全資子公司",
+   "子企業",
+   "從屬公司",
+   "附属公司",
+   "附屬公司"
+  ],
+  "Q665071": [
+   "M-202",
+   "M202",
+   "Martin 202"
+  ],
+  "Q6881511": [
+   "business enterprise",
+   "business enterprises",
+   "companies",
+   "company",
+   "enterprise company",
+   "enterprise firm",
+   "enterprises",
+   "firm",
+   "firms",
+   "undertaking",
+   "undertakings",
+   "事业者",
+   "事业者",
+   "企业",
+   "企業"
+  ],
+  "Q694098": [
+   "S.A. Suisse pour la Navigation Aérienne",
+   "Schweizerische Luftverkehr",
+   "Schweizerische Luftverkehr-AG",
+   "Swiss Air Transport Company Limited"
+  ],
+  "Q695850": [
+   "AB",
+   "AFB",
+   "airbase",
+   "air force base",
+   "air force station",
+   "military air base",
+   "military airbase",
+   "military airfield",
+   "military airport",
+   "空軍基地",
+   "空軍基地",
+   "航空基地",
+   "航空基地",
+   "軍用飛行場",
+   "軍用飛行場"
+  ],
+  "Q705296": [
+   "districts of Taiwan",
+   "districts (Taiwan)",
+   "district (Taiwan)",
+   "市轄區",
+   "市轄區"
+  ],
+  "Q705614": [
+   "Niigata Convention Center"
+  ],
+  "Q708576": [
+   "Fengnian Airport",
+   "RCFN",
+   "TTT",
+   "台東機場",
+   "台東機場",
+   "台東豐年機場",
+   "台東豐年機場",
+   "臺東航空站",
+   "臺東航空站",
+   "豐年機場",
+   "豐年機場",
+   "陸航豐年基地",
+   "陸航豐年基地"
+  ],
+  "Q713367": [
+   "Luchu",
+   "Lujhu",
+   "Luju",
+   "蘆竹",
+   "蘆竹",
+   "蘆竹厝",
+   "蘆竹厝",
+   "蘆竹市",
+   "蘆竹市",
+   "蘆竹鄉",
+   "蘆竹鄉"
+  ],
+  "Q718384": [
+   "Dayuan",
+   "Daywan",
+   "Ōsono",
+   "tai ienˇ",
+   "Tayuan",
+   "Thai-yèn",
+   "Toā-hn̂g",
+   "大園",
+   "大園",
+   "大園鄉",
+   "大園鄉",
+   "大坵園",
+   "大坵園"
+  ],
+  "Q721639": [
+   "國家航空公司"
+  ],
+  "Q7390019": [
+   "S.F. Holding",
+   "Shunfeng",
+   "Shun Feng",
+   "順豐快遞",
+   "順豐速運",
+   "顺丰快递",
+   "顺丰快递",
+   "顺丰控股",
+   "顺丰集团"
+  ],
+  "Q741372": [
+   "RJBE",
+   "UKB"
+  ],
+  "Q748149": [
+   "prefectural city",
+   "prefectural level municipality",
+   "prefecture level city of People's Republic of China"
+  ],
+  "Q7494375": [
+   "深圳國際控股",
+   "深圳國際控股有限公司"
+  ],
+  "Q751141": [
+   "50",
+   "F50",
+   "Fokker-50客機",
+   "Fokker-50運輸機",
+   "Fokker F50",
+   "Fokker-F50",
+   "福克 50",
+   "福克-50",
+   "福克F50"
+  ],
+  "Q7574799": [
+   "Metropolitan Cities of South Korea",
+   "Teukbyeolsi"
+  ],
+  "Q767382": [
+   "Ce 170"
+  ],
+  "Q778575": [
+   "business conglomerate",
+   "conglomeration",
+   "multi-industry company",
+   "企业集团"
+  ],
+  "Q779415": [
+   "SAR",
+   "special administrative region",
+   "Special administrative regions of China",
+   "特別行政區"
+  ],
+  "Q783794": [
+   "co.",
+   "firm",
+   "商業組織"
+  ],
+  "Q80434": [
+   "Aichi",
+   "Aichi-ken",
+   "愛知",
+   "愛知県"
+  ],
+  "Q814006": [
+   "18",
+   "AT-11 Kansan",
+   "AT-7 Navigator",
+   "B18",
+   "Beech 18",
+   "Beech C-45",
+   "Beechcraft AT-11",
+   "Beechcraft C-45",
+   "C-45型飛機",
+   "JRB Expeditor",
+   "Model 18",
+   "Twin Beech",
+   "比奇 18",
+   "比奇18",
+   "比奇18型"
+  ],
+  "Q839196": [
+   "澳娛",
+   "澳門旅遊娛樂有限公司",
+   "澳門旅遊娛樂股份有限公司"
+  ],
+  "Q844138": [
+   "Ryugasaki",
+   "Ryūgasaki",
+   "Ryugasaki City",
+   "Ryugasaki-shi"
+  ],
+  "Q852018": [
+   "泉佐野"
+  ],
+  "Q8691": [
+   "Heathrow",
+   "Heathrow Airport",
+   "London Heathrow",
+   "London's Heathrow Airport",
+   "希思羅機場"
+  ],
+  "Q891723": [
+   "listed company",
+   "public corporation",
+   "publicly held company",
+   "publicly listed company",
+   "publicly traded company",
+   "上櫃公司",
+   "上櫃公司",
+   "公開上市公司"
+  ],
+  "Q894674": [
+   "Municipality of Botany"
+  ],
+  "Q917907": [
+   "Br Britannia",
+   "Bristol 175",
+   "Britannia aircraft",
+   "布里斯托不列顛尼亞型",
+   "布里斯托尔-175-313",
+   "布里斯托尔-175-不列颠尼亚102"
+  ],
+  "Q921019": [
+   "BN-2",
+   "BN-2B",
+   "BN-2 Islander",
+   "BN2 Islander",
+   "Britten-Norman Islander",
+   "Islander aircraft",
+   "Pilatus Britten-Norman Islander",
+   "島民",
+   "布里顿-诺曼海岛人"
+  ],
+  "Q937949": [
+   "Do 328",
+   "DO328"
+  ],
+  "Q94993988": [
+   "commercial traffic airport",
+   "customs aerodrome",
+   "customs airport"
+  ],
+  "Q9694": [
+   "Amsterdam Airport",
+   "Amsterdam-Schiphol",
+   "Schiphol Airport"
+  ],
+  "Q970339": [
+   "Chofu Airfield",
+   "Chofu Airport",
+   "RJTF",
+   "調布"
+  ]
+ },
+ "done": [
+  "p176",
+  "p931",
+  "labels",
+  "types",
+  "p17",
+  "alias_0",
+  "alias_1",
+  "alias_2",
+  "alias_3"
+ ],
+ "errors": []
+}

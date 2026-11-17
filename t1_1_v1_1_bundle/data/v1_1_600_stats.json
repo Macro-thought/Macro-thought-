@@ -1,0 +1,38 @@
+{
+ "n_entities": 600,
+ "n_edges": 1951,
+ "n_domain_edges": 1095,
+ "n_schema_edges": 856,
+ "n_dropped": 10,
+ "dropped": [
+  "Q1134006",
+  "Q1141068",
+  "Q11508995",
+  "Q1156273",
+  "Q11575035",
+  "Q1207746",
+  "Q170131",
+  "Q2061234",
+  "Q215175",
+  "Q217234"
+ ],
+ "node_kind": {
+  "class": 118,
+  "country": 15,
+  "instance": 467
+ },
+ "unknown": 0,
+ "fingerprint": "08db01652c6886c3",
+ "dropped_labels": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ]
+}
